@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<title>Template no nav</title>
+<!--#include virtual="includes/code-head.html"-->
+	
+		
+</head>
+<body>
+<a id="SkipNav" href="#MainContent">Skip to Main Content</a>
+<!--#include virtual="includes/code-header-standard.html"-->
+
+		
+	<main id="content">
+		<div class="container">
+<div class="row">
+	<div class="col-lg-12">
+
+<h1><span class="badge badge-secondary">Headings 1-6</span></h1>
+<p>&nbsp;</p>
+<h1>H1 Quick zephyrs blow, vexing daft Jim</h1>
+<h2>H2 Sphinx of black quartz, judge my vow</h2>
+<h3>H3 Two driven jocks help fax my big quiz</h3>
+<h4>H4 Five quacking zephyrs jolt my wax bed</h4>
+<h5>H5 The five boxing wizards jump quickly</h5>
+<h6>H6 Jinxed wizards pluck ivy from the big quilt</h6>
+<p>&nbsp;</p>
+<h1><span class="badge badge-secondary">Display Class</span></h1>
+<p>&nbsp;</p>
+<h1 class="display-1">Display 1</h1>
+<h1 class="display-2">Display 2</h1>
+<h1 class="display-3">Display 3</h1>
+<h1 class="display-4">Display 4</h1>
+
+<p>&nbsp;</p>
+<h1><span class="badge badge-secondary">Headerbar</span></h1>
+<p>&nbsp;</p>
+<h1 class="headerbar">H1 Quick zephyrs blow, vexing daft Jim</h1>
+<h2 class="headerbar">H2 Sphinx of black quartz, judge my vow</h2>
+<h3 class="headerbar">H3 Two driven jocks help fax my big quiz</h3>
+<h4 class="headerbar">H4 Five quacking zephyrs jolt my wax bed</h4>
+<h5 class="headerbar">H5 The five boxing wizards jump quickly</h5>
+<h6 class="headerbar">H6 Jinxed wizards pluck ivy from the big quilt</h6>
+<p class="headerbar">P Jinxed wizards pluck ivy from the big quilt</p>
+	</div><!-- .col-12 -->
+</div><!-- .row -->		
+
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+
+<div class="row">
+	<div class="col-lg-12">
+<h1><span class="badge badge-secondary">Regular text</span></h1>
+<p>&nbsp;</p>
+<p>I've opened a door here that I regret. I'm afraid I just blue myself. First place chick is hot, but has an attitude, doesn't date magicians. No… but I'd like to be asked!</p>
+<p>That's why you always leave a note! I've opened a door here that I regret. <strong> I don't criticize you!</strong> <em> And if you're worried about criticism, sometimes a diet is the best defense.</em> That's why you always leave a note!</p>
+<p>Not tricks, Michael, illusions. There's only one man I've ever called a coward, and that's Brian Doyle Murray. No, what I'm calling you is a television actor. Across from where? Say goodbye to these, because it's the last time!</p>
+<p>&nbsp;</p>
+                <p class="lead"><strong>Lead Paragraph:</strong> Uses .lead - But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system</p>
+                <p class="small"><strong>Small Paragraph:</strong> Uses .small - But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system</p>
+<p>&nbsp;</p>
+
+<h1><span class="badge badge-secondary">Inline text element tags</span></h1>
+<p>&nbsp;</p>
+<p>You can use the mark tag to <mark>highlight</mark> text.</p>
+<p><del>You can use the del tag to for text meant to be treated as deleted text.</del></p>
+<p><small>You can use the small tag to for text meant to be treated as fine print.</small></p>
+
+
+	</div><!-- .col-12 -->
+</div><!-- .row -->
+
+
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+
+<div class="row">
+	<div class="col-lg-12">
+<h1><span class="badge badge-secondary">Lists</span></h1>
+<p>&nbsp;</p>
+<ul>
+    <li>I'm normally not a praying man, but if you're up there, please save me, Superman.</li>
+	<li>I've had it with this school, Skinner. Low test scores, class after class of ugly, ugly children</li>
+	<li>Well, he's kind of had it in for me ever since I accidentally ran over his dog. Actually, replace "accidentally" with "repeatedly" and replace "dog" with "son."</li>
+</ul>
+<ol>
+    <li>And the fluffy kitten played with that ball of string all through the night. On a lighter note, a Kwik-E-Mart clerk was brutally murdered last night.</li>
+	<li>I hope this has taught you kids a lesson: kids never learn.</li>
+	<li>A woman is a lot like a refrigerator. Six feet tall, 300 pounds…it makes ice.</li>
+</ol>
+
+<ul>
+<li>I'm the Doctor. Well, they call me the Doctor. I don't know why. I call me the Doctor too. I still don't know why.</li>
+<li>Did I mention we have comfy chairs?
+	<ul>
+	<li>You know when grown-ups tell you 'everything's going to be fine' and you think they're probably lying to make you feel better?</li>
+	<li>You know when grown-ups tell you 'everything's going to be fine' and you think they're probably lying to make you feel better?</li>
+	</ul>
+</li>
+<li>You know how I sometimes have really brilliant ideas?</li>
+</ul>
+
+	</div><!-- .col-12 -->
+</div><!-- .row -->
+
+	</div><!-- .col-12 -->
+</div><!-- .row -->
+
+		</div><!-- .container -->
+	</main><!-- .content -->
+	
+<!--#include virtual="includes/code-footer.html"-->
+	
+
+</body>
+</html>

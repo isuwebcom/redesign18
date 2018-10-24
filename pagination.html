@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+  .pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #efefef;
+  text-decoration: none;
+  background-color: #555;
+  border: 1px solid #eee;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  margin-left: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #111;
+  background-color: #ccc;
+  border-color: #eee;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 2;
+  color: #111;
+  cursor: default;
+  background-color: #ccc;
+  border-color: #eee;
+}
+  </style>
+<script src="scripts/jquery.twbsPagination.min.js"></script>
+<script>
+    $(function () {
+        window.pagObj = $('#pagination').twbsPagination({
+            totalPages: 29,
+            visiblePages: 10,
+            onPageClick: function (event, page) {
+                console.info(page + ' (from options)');
+            }
+        }).on('page', function (event, page) {
+            console.info(page + ' (from event listening)');
+        });
+    });
+</script>
+</head>
+<body>
+
+<div class="container">
+
+
+
+
+
+    <ul  class="pagination" id="pagination">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">6</a></li>
+        <li><a href="#">7</a></li>
+        <li><a href="#">8</a></li>
+        <li><a href="#">9</a></li>
+        <li><a href="#">10</a></li>
+        <li><a href="#">11</a></li>
+        <li><a href="#">12</a></li>
+        <li><a href="#">13</a></li>
+        <li><a href="#">14</a></li>
+        <li><a href="#">15</a></li>
+        <li><a href="#">16</a></li>
+        <li><a href="#">17</a></li>
+        <li><a href="#">18</a></li>
+        <li><a href="#">19</a></li>
+        <li><a href="#">20</a></li>
+        <li><a href="#">21</a></li>
+        <li><a href="#">22</a></li>
+        <li><a href="#">23</a></li>
+        <li><a href="#">24</a></li>
+        <li><a href="#">25</a></li>
+        <li><a href="#">26</a></li>
+        <li><a href="#">27</a></li>
+        <li><a href="#">28</a></li>
+        <li><a href="#">29</a></li>
+      </ul> 
+</div>
+
+</body>
+</html> 

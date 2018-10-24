@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<title>Home Page</title>
+<!--#include virtual="includes/code-head.html"-->
+	
+		
+</head>
+<body>
+<a id="SkipNav" href="#MainContent">Skip to Main Content</a>
+<!--#include virtual="includes/code-header-top-level.html"-->
+<!--#include virtual="includes/code-mega-menu.html"-->
+
+		
+	<main id="content">		
+		<div class="container-fluid">
+		<p class="display-3 text-center"><mark>WIRE FRAME</mark></p>
+			<h1 class="text-center">Video/Homie</h1>
+</div><!-- .container-fluid -->
+	
+		<div class="priority-links">
+			<div class="container-fluid">
+			<div class="container">
+				<div class="row v-stack text-center">	
+					<div class="col-sm-6 col-md-2">
+						<a href="#">
+						<i class="fas fa-check"></i>
+						<p>Apply</p>
+						</a>
+					</div><!-- .col-2 -->
+					
+					<div class="col-sm-6 col-md-2">
+						<a href="#">
+						<i class="fas fa-bookmark"></i>
+						<p>Majors</p>
+						</a>
+					</div><!-- .col-2 -->
+					
+					<div class="col-sm-6 col-md-2">
+						<a href="#">
+						<i class="fas fa-dollar-sign"></i>
+						<p>Cost</p>
+						</a>
+					</div><!-- .col-2 -->
+					
+					<div class="col-sm-6 col-md-2">
+						<a href="#">
+						<i class="fas fa-book-open"></i>
+						<p>Academics</p>
+						</a>
+					</div><!-- .col-2 -->
+					
+					<div class="col-sm-6 col-md-2">
+						<a href="#">
+						<i class="fas fa-school"></i>
+						<p>Visit</p>
+						</a>
+					</div><!-- .col-2 -->
+					
+					<div class="col-sm-6 col-md-2">
+						<a href="#">
+						<i class="fas fa-calendar-alt"></i>
+						<p>Calendar</p>
+						</a>
+					</div><!-- .col-2 -->				
+				</div><!-- .row -->
+			</div><!-- .container -->			
+			</div><!-- .container-fluid -->
+		</div><!-- .priority-links -->
+
+<div class="container">
+
+<div class="row">
+	<div class="col-md-12 mt-4">
+		<h1><mark>Feature area</mark></h1>
+		<p>Could be brag point, seasonal things of importance, new initiatives</p>
+	</div><!-- .col-12 -->
+</div><!-- .row -->
+
+
+<div class="row mt-4">	
+	<div class="col-md-6">
+		<div class="card">
+		  <div class="card-body">
+			<h2 class="card-title">News</h2>
+	
+			
+			<a href="#" class="card-link">More News</a>
+		  </div>
+		</div>
+
+	</div><!-- .col-6 -->
+
+	<div class="col-md-6">
+		<div class="card">
+		  <div class="card-body">
+			<h2 class="card-title">Events</h2>
+				<script type="text/javascript" src="//www.trumba.com/scripts/spuds.js"></script>
+				<script type="text/javascript">
+				$Trumba.addSpud({
+				webName: "isu_event_calendar",
+				spudType : "upcoming" ,
+				spudConfig : "SpudConfig3" ,
+				teaserBase : "http://www.isu.edu/calendar/" });
+				</script>		
+			
+			<a href="#" class="card-link">More Events</a>
+		  </div>
+		</div>
+
+	</div><!-- .col-6 -->
+</div><!-- .row -->
+</div><!-- .container -->
+
+<section class="bg-light">
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">	
+				<div class="col-md-3">
+					<div class="feature-pane-wrapper">
+						<div class="feature-pane">
+							<p><i class="far fa-image"></i> Location</p>
+						</div>
+					</div>
+				</div><!-- .col-3 -->
+				
+				<div class="col-md-3">
+					Virtual Tour
+				</div><!-- .col-3 -->
+				
+				<div class="col-md-3">
+					Join the Alumni Association
+				</div><!-- .col-3 -->
+				
+				<div class="col-md-3">
+					Make a gift
+				</div><!-- .col-3 -->
+			</div><!-- .row -->
+
+		</div><!-- .container -->
+	</div><!-- .container-fluid -->
+</section>
+
+<div class="container-fluid">
+
+		<div class="row d-flex">
+                        <ul class="home-social-icons mx-auto justify-content-center">
+							<li><span style="font-size:2rem;">Follow Us</span></li>
+                            <li><a href="https://www.facebook.com/idahostateu" class="icoFacebook" title="Facebook" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="https://twitter.com/idahostateu" class="icoTwitter" title="Twitter" aria-label="Twitter"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="https://instagram.com/idahostateu/" class="icoInstagram" title="Instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.youtube.com/user/idahostateu" class="icoYoutube" title="Youtube" aria-label="Youtube"><i class="fab fa-youtube-square"></i></a></li>
+							<li><a href="https://www.snapchat.com/add/idahostateu" class="icoSnapchat" title="Snapchat" aria-label="Snapchat"><i class="fab fa-snapchat-square"></i></a></li>
+                        </ul>
+		</div><!-- .row -->
+
+<div class="row mt-4 text-center">	
+	<div class="col-md-4">
+		<h3>Facebook Feed</h3>
+	</div><!-- .col-4 -->
+	
+	<div class="col-md-4">
+		<h3>Instagram Feed</h3>
+
+	</div><!-- .col-4 -->
+	
+	<div class="col-md-4">
+		<h3>Twitter Feed</h3>
+
+	</div><!-- .col-4 -->
+	
+</div><!-- .row -->
+
+</div><!-- .container-fluid -->
+
+<div class="container">
+
+		</div><!-- .row -->	
+</div><!-- .container -->
+
+
+	</main><!-- .content -->
+	
+<!--#include virtual="includes/code-footer.html"-->
+	
+
+</body>
+</html>

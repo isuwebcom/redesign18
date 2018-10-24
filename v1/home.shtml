@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<title>Home Page</title>
+<!--#include virtual="includes/code-head.html"-->
+	
+		
+</head>
+<body>
+<a id="SkipNav" href="#MainContent">Skip to Main Content</a>
+<!--#include virtual="includes/code-header-top-level.html"-->
+<!--#include virtual="includes/code-mega-menu.html"-->
+
+		
+	<main id="content">
+		<div class="container">
+<!--#include virtual="includes/code-nothing.html"-->
+		</div><!-- .container -->
+	</main><!-- .content -->
+	
+<!--#include virtual="includes/code-footer.html"-->
+	
+
+</body>
+</html>

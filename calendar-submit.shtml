@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<title>Calendar</title>
+<!--#include virtual="includes/code-head.html"-->
+	
+		
+</head>
+<body>
+<a id="SkipNav" href="#MainContent">Skip to Main Content</a>
+<!--#include virtual="includes/code-header-standard.html"-->
+		<div class="top-nav sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light-top">
+              <div class="container">
+                <a class="navbar-brand" href="calendar.shtml">ISU Event Calendar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar1">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="calendar-submit.shtml">Submit an Event</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.isu.edu/calendar/help/">Help</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other Calendars</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Academic Calendar</a>
+                        <a class="dropdown-item" href="#">Final Exam Schedule</a>
+                        <a class="dropdown-item" href="#">Holiday Schedule</a>
+                        <a class="dropdown-item" href="#">ISU 5-year Calendar</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+		</div>
+					
+		
+	<main id="content">
+		<div class="container">
+		
+<div class="row">	
+	<div class="col-md-8">
+<script id="trumbaSubmitEventJS" type="text/javascript" src="//www.trumba.com/ea/scripts/submitevent.js"></script>
+<script type="text/javascript">trumbaInsertSubmitEventForm({
+code: "gpva3k112pzwzx002yf6tfbue9",
+backgroundColor: "white" });
+</script>
+
+	</div><!-- .col-8 -->
+
+	<div class="col-md-4">
+	<ul>
+	<li>Please allow up to <strong>72 hours</strong> for your event to be reviewed and approved by a calendar editor</li>
+	<li>Submissions from faculty, staff and students are welcome</li>
+	<li>Submissions without a clear connection to ISU will not be approved</li>
+	</ul>
+	<p>&nbsp;</p>
+	  <div class="alert alert-secondary">
+		If you have many events during the semester, they can be added to the calendar all at once with a specifically formatted spreadsheet.
+	  </div>
+	
+	</div><!-- .col-4 -->
+</div><!-- .row -->
+
+		</div><!-- .container -->
+	</main><!-- .content -->
+	
+<!--#include virtual="includes/code-footer.html"-->
+	
+
+</body>
+</html>

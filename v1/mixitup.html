@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<title>mixitup</title>
+
+<!-- ==============================
+CSS 
+=============================== -->	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	
+	<!-- ISU Styles -->
+	<link href="css/styles18.css" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,600,300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600" rel="stylesheet">	
+
+<!-- ==============================
+SCRIPTS 
+=============================== -->	
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="scripts/jquery.mixitup.js"></script>
+  <script>
+$(function(){
+  $('#location-items').mixItUp();
+});
+  </script>
+
+
+<style>
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+.controls {
+  text-align: center;
+  padding: 20px;
+}
+
+a:not([href]):not([tabindex]) {
+  color: #222;
+}
+
+a:focus:not([href]):not([tabindex]), a:hover:not([href]):not([tabindex]) {
+  color: #fff;
+}
+
+.controls .active {
+  color: #fff !important;
+  background: #ff8a44;
+}
+
+
+
+.locations{ 
+  -webkit-backface-visibility: hidden;
+}
+
+
+.locations .mix{
+  display: none;
+}
+
+
+
+
+
+
+</style>  
+
+<!--- Back To Top Files ----->
+<link rel="stylesheet" type="text/css" href="https://www.isu.edu/media/top-level/css/libraries/back-top-top.css" />
+<script type="text/javascript" src="https://www.isu.edu/media/top-level/scripts/libraries/back-to-top.js"></script>
+
+	
+		
+</head>
+<body>
+
+
+<a id="SkipNav" href="#MainContent">Skip to Main Content</a>
+
+		<div class="top-nav sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light-top">
+              <div class="container">
+                <a class="navbar-brand" href="dining.shtml">Dining</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar1">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="about.html">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.isu.edu/housing/meal-plans/">Meal plans</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.dineoncampus.com/isu/catering-information">Catering</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+		</div>
+
+	<section id="content">
+		<div class="container">		
+		
+              <div class="controls text-center wow fadeInUpQuick" data-wow-delay=".6s">
+                <a class="filter active btn btn-common" data-filter="all">
+                  All 
+                </a>
+                <a class="filter btn btn-common" data-filter=".union">
+                  Student Union 
+                </a>
+                <a class="filter btn btn-common" data-filter=".rendezvous">
+                  Rendezvous
+                </a>
+                <a class="filter btn btn-common" data-filter=".turner">
+                  Turner 
+                </a>
+              </div>
+
+<div id="location-items" class="locations">
+<div class="row">	
+  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix union">
+		<div class="card">
+		  <div class="card-body">
+			<h4 class="card-title">Card title</h4>
+			<p class="card-text">Some example text. Some example text.</p>
+			<a href="#" class="card-link">Card link</a>
+			<a href="#" class="card-link">Another link</a>
+		  </div>
+		</div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix union">
+		<div class="card">
+		  <div class="card-body">
+			<h4 class="card-title">Card title</h4>
+			<p class="card-text">Some example text. Some example text.</p>
+			<a href="#" class="card-link">Card link</a>
+			<a href="#" class="card-link">Another link</a>
+		  </div>
+		</div>
+  </div>
+    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix rendezvous">
+		<div class="card">
+		  <div class="card-body">
+			<h4 class="card-title">Card title</h4>
+			<p class="card-text">Some example text. Some example text.</p>
+			<a href="#" class="card-link">Card link</a>
+			<a href="#" class="card-link">Another link</a>
+		  </div>
+		</div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix turner">
+		<div class="card">
+		  <div class="card-body">
+			<h4 class="card-title">Card title</h4>
+			<p class="card-text">Some example text. Some example text.</p>
+			<a href="#" class="card-link">Card link</a>
+			<a href="#" class="card-link">Another link</a>
+		  </div>
+		</div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix rendezvous">
+		<div class="card">
+		  <div class="card-body">
+			<h4 class="card-title">Card title</h4>
+			<p class="card-text">Some example text. Some example text.</p>
+			<a href="#" class="card-link">Card link</a>
+			<a href="#" class="card-link">Another link</a>
+		  </div>
+		</div>
+  </div>
+  
+    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix rendezvous">
+		<div class="card">
+		  <div class="card-body">
+			<h4 class="card-title">Card title</h4>
+			<p class="card-text">Some example text. Some example text.</p>
+			<a href="#" class="card-link">Card link</a>
+			<a href="#" class="card-link">Another link</a>
+		  </div>
+		</div>
+  </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix union">
+		<div class="card">
+		  <div class="card-body">
+			<h4 class="card-title">Card title</h4>
+			<p class="card-text">Some example text. Some example text.</p>
+			<a href="#" class="card-link">Card link</a>
+			<a href="#" class="card-link">Another link</a>
+		  </div>
+		</div>
+  </div>
+  	
+</div><!-- .row -->
+  
+  <div class="gap"></div>
+  <div class="gap"></div>
+</div>
+
+
+		</div><!-- .container -->
+	</section><!-- .content -->
+</body>
+</html>

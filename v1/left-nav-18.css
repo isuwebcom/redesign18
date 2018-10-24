@@ -1,0 +1,230 @@
+#left-nav {
+    
+}
+
+#left-nav .navbar {
+    background-color: #fff;
+    border: none;
+}
+
+#left-nav .navbar-default {
+    border: none;
+}
+
+#left-nav .navbar-collapse {
+    max-height: none;
+    padding: 0;
+}
+
+/* branch title */
+#left-nav .desktop-navbar-title a {
+    color: #333;
+    background-color: #f8f9fa;
+    display: block;
+    font-size: 20px;
+font-weight:bold;
+    line-height: 36px;
+    text-decoration: none;
+    outline: none;  
+padding-left:15px;
+border-left: 2px solid #ff8a44;
+}
+
+#left-nav .desktop-navbar-title a:hover,
+#left-nav .desktop-navbar-title a:focus{
+      color: #fff;
+  background-color: #ff8a44;
+border-left: 2px solid #333333;
+}
+
+/* mobile menu branch title */
+#left-nav .mobile-navbar-title a {
+    color: #ff6600;
+    font-size: 1.75em;
+    outline: none;
+    text-decoration: none; 
+padding-left: 5px;
+border-left: 2px solid #ff8a44;
+}
+
+#left-nav .mobile-navbar-title a:hover,
+#left-nav .mobile-navbar-title a:focus{
+    color: #ffffff; 
+border-left: 4px solid #333333;
+}
+
+/* mobile menu expand button */
+#left-nav .navbar-default .navbar-toggle {
+    color: #ffffff;
+    background-color: #555555;
+    border: none;
+    margin: 0px;
+}
+
+#left-nav .navbar-default .navbar-toggle:hover,
+#left-nav .navbar-default .navbar-toggle:focus{
+    background-color:  #ff6600;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+/* list of links */
+#left-nav ul {
+    background-color: #fff;
+    float: none;
+    display: block;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#left-nav li {
+    background-color: #f8f9fa;
+    border-left: 2px solid #ff8a44;
+    margin-bottom: 1px;
+    letter-spacing: 1px;
+    font-size: 16px;
+font-weight: bold;
+
+}
+
+#left-nav li:hover {
+	background-color: #ff8a44;
+    border-left: 2px solid #333333;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#left-nav li:focus {
+background-color: #ff8a44;
+}
+
+#left-nav li:active {
+background-color: #ff8a44;
+}
+#left-nav li a {
+    color: #333;
+    display: block;
+    padding: 12px 10px;
+    outline: none;
+    text-decoration: none;
+}
+
+#left-nav li a:hover {
+    color: #fff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#left-nav li a:focus{
+ color: #ff8a44;
+}
+
+
+/* inner links */
+#left-nav .multilevel-linkul-0 li {
+    background-color: #f8f9fa;
+    display: block;
+    border-left: none;
+    padding-left: 24px;
+}
+
+#left-nav .multilevel-linkul-0 li:hover,
+#left-nav .multilevel-linkul-0 li:focus{
+    background-color: #ff8a44;
+}
+
+@media (min-width: 1000px){
+ 	.left-navbar{
+     	background-color: #ffffff !important; 
+    }
+}
+
+@media (max-width: 1000px) {
+    /* mobile menu no top padding */
+    #mobile-nav-container {
+        padding-top: 0px !important;
+    }
+
+    /* mobile menu branch title padding */
+    #left-nav .navbar-header {
+        padding: 10px;
+    }
+
+    /* remove margin similar to top menu on mobile */
+    #left-nav li {
+        margin: 0px;
+    }
+     
+    /* round icons on mobile to match other buttons */
+    .plus, .minus{
+        border-radius: 4px; 
+    }
+}
+
+.expand {
+    position: relative;
+}
+
+/*right padding so link text isn't covered by + button*/
+.expand a:first-child{
+    padding-right: 30px !important;
+}
+
+.plus, .minus {
+    color: #666 !important;
+    padding: 12px 6px !important;
+	background: transparent;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+  	right: 10px;
+   	top: 8px;
+   	font-size: 40px;
+   	line-height: 0;
+  	text-align: center;
+    vertical-align: text-bottom;
+}
+
+.plus:hover, .minus:hover,
+.plus:focus, .minus:focus{
+    color: #fff;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+/* mobile menu text */
+.menu-name{
+    font-family: sans-serif; 
+}
+
+/* gap between arrow and menu text */
+.navbar-toggle .glyphicon-arrow-down::before{
+    margin-right: 5px;
+}
+
+/* the currently selected page in navigation */
+#focused{
+	color: white !important;
+}
+
+
+
+
+
+
+
+

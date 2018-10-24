@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<title>Tables</title>
+<!--#include virtual="includes/code-head.html"-->
+	
+		
+</head>
+<body>
+<a id="SkipNav" href="#MainContent">Skip to Main Content</a>
+<!--#include virtual="includes/code-header-standard.html"-->
+
+		
+	<main id="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+<h1><span class="badge badge-secondary">Tables</span></h1>
+<table class="data">
+  <tr>
+    <th>Entry Header 1</th>
+    <th>Entry Header 2</th>
+    <th>Entry Header 3</th>
+    <th>Entry Header 4</th>
+  </tr>
+  <tr>
+    <td>Entry First Line 1</td>
+    <td>Entry First Line 2</td>
+    <td>Entry First Line 3</td>
+    <td>Entry First Line 4</td>
+  </tr>
+  <tr>
+    <td>Entry Line 1</td>
+    <td>Entry Line 2</td>
+    <td>Entry Line 3</td>
+    <td>Entry Line 4</td>
+  </tr>
+  <tr>
+    <td>Entry Last Line 1</td>
+    <td>Entry Last Line 2</td>
+    <td>Entry Last Line 3</td>
+    <td>Entry Last Line 4</td>
+  </tr>
+</table>
+
+				</div><!-- .col-12 -->
+			</div><!-- .row -->
+
+		</div><!-- .container -->
+	</main><!-- .content -->
+	
+<!--#include virtual="includes/code-footer.html"-->
+	
+
+</body>
+</html>

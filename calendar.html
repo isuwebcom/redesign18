@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<title>Calendar</title>
+
+<!-- ==============================
+CSS 
+=============================== -->	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	
+	<!-- ISU Styles -->
+	<link href="css/styles18.css" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css?family=Lato:700,600,500,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:700,600,500,400" rel="stylesheet">	
+
+<!-- ==============================
+SCRIPTS 
+=============================== -->	
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+	
+
+<!--- Back To Top Files ----->
+<link rel="stylesheet" type="text/css" href="https://www.isu.edu/media/top-level/css/libraries/back-top-top.css" />
+<script type="text/javascript" src="https://www.isu.edu/media/top-level/scripts/libraries/back-to-top.js"></script>
+
+	
+		
+</head>
+<body>
+
+
+<a id="SkipNav" href="#MainContent">Skip to Main Content</a>
+
+		<div class="top-nav sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light-top">
+              <div class="container">
+                <a class="navbar-brand" href="calendar.shtml">ISU Event Calendar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar1">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="calendar-submit.html">Submit an Event</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.isu.edu/calendar/help/">Help</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other Calendars</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Academic Calendar</a>
+                        <a class="dropdown-item" href="#">Final Exam Schedule</a>
+                        <a class="dropdown-item" href="#">Holiday Schedule</a>
+                        <a class="dropdown-item" href="#">ISU 5-year Calendar</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+		</div>
+					
+		
+	<main id="content">
+		<div class="container-fluid">
+<script type="text/javascript" src="https://www.trumba.com/scripts/spuds.js"></script>		
+<div class="row">
+				<div class="col-xs-12 col-md-10 pull-right">			
+					<div id="maincalendar">
+						<div id="monthlist">
+							<!-- start month list -->
+							<script type="text/javascript">
+								$Trumba.addSpud({
+								webName: "isu_event_calendar",
+								spudType : "monthlist" });
+							</script>
+							<!-- end month list -->
+						</div>
+                      <!-- View Changer -->
+                      <script type="text/javascript">
+						$Trumba.addSpud({
+						webName: "isu_event_calendar",
+						spudType : "tabchooser" });
+					  </script>
+						<!-- start calendar -->
+						<script type="text/javascript">
+							$Trumba.addSpud({
+							webName: "isu_event_calendar",
+							spudType : "main" });
+						</script>
+						<noscript>Your browser must support JavaScript to view this content.
+						Please enable JavaScript in your browser settings then try again.</noscript>
+						<!-- end calendar -->
+					</div> <!-- end maincalendar -->
+				</div>
+				
+				<div class="col-xs-12 col-md-2 pull-left">			
+					<p class="button-outline text-center w-100"><a href="http://www.isu.edu/calendar/submit-event/"><i class="fas fa-calendar-plus"></i> SUBMIT EVENT</a></p>
+					<div id="datefinder">
+						<!-- start date finder -->
+						<script type="text/javascript">
+							$Trumba.addSpud({
+							webName: "isu_event_calendar",
+							spudType : "datefinder" });
+						</script>
+						<!-- end date finder -->
+					</div>
+				<p style="padding-top:8px;"><strong><a href="http://www.isu.edu/calendar/help/">Using the Event Calendar</a></strong></p>
+
+					<div id="calendarsearch" style="margin-bottom:8px;">
+						<!-- state search -->
+						<script type="text/javascript">
+							$Trumba.addSpud({
+							webName: "isu_event_calendar",
+							spudType : "searchlabeled" });
+						</script>
+						<!-- end search -->
+					</div>
+                  
+					<div id="calendarlist">
+						<!-- start calendar list -->
+						<script type="text/javascript">
+							$Trumba.addSpud({
+							webName: "isu_event_calendar",
+							spudType : "filter" });
+						</script>
+						<!-- end calendar list -->
+					</div>		
+
+				</div>
+			</div><!--row-->
+		</div><!-- .container-fluid -->
+	</main><!-- .content -->
+	
+	
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+
+
+    @media (min-width: 1280px) {
+        .container {
+          min-width: 1140px;
+        }
+      }
+
+    @media (min-width: 1366px) {
+        .container {
+          min-width: 1140px;
+        }
+      }
+
+
+
+
+      /* fulltext */
+
+.full-story {
+    background-color: #fff; 
+    padding: 16px;   
+}
+
+.full-story .social-share-icons{
+    float:right;
+    position: relative;
+
+}
+
+.full-story h3 {
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.full-story .lead {
+    font-size: 16px;
+}
+
+.full-story figure {
+   display: table;
+   margin-bottom: 16px;
+}
+
+.full-story figure img {
+    display: block;
+    width: 100%;
+}
+
+.full-story figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    background-color: #f1f1f1;
+    padding: 4px 2px;
+}

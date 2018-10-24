@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<title>Apply</title>
+<!--#include virtual="includes/code-head.html"-->
+	
+<script>
+  window.FontAwesomeConfig = {
+    searchPseudoElements: true
+  }
+</script>		
+</head>
+<body>
+<a id="SkipNav" href="#MainContent">Skip to Main Content</a>
+<!--#include virtual="includes/code-header-standard.html"-->
+<div class="top-mega sticky-top">
+<nav class="top-mega navbar navbar-light-mega navbar-expand-lg sticky-top">
+<div class="container">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar-content">
+    <ul class="navbar-nav mx-auto">
+		
+		<li class="nav-item dropdown menu-large">
+			<a class="nav-link dropdown-toggle" href="#" id="navbar-admissions" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Undergraduate
+			</a>
+				<div class="dropdown-menu mega-menu" aria-labelledby="navbar-admissions">
+					<div class="row v-stack">	
+						<div class="col-md-6">
+							<ul class="mega-menu-list">
+								<li><a href="#">Application Process</a></li>
+								<li><a href="#">Freshman Admission Requirements</a></li>
+								<li><a href="#">Transfer Admission Requirements</a></li>
+								<li><a href="#">International Admission Requirements</a></li>
+								<li><a href="#">Admissions Advisors</a></li>
+							</ul>
+						</div><!-- .col-6 -->
+
+						<div class="col-md-6">
+							<div class="alert alert-light">
+							<p>Contact</p>
+							<p><i class="fas fa-phone"></i> <a href="tel:2082822475">(208) 282-2475</a></p>
+							<p><i class="far fa-envelope"></i> <a href="mailto:admiss@isu.edu">admiss@isu.edu</a></p>
+							<p><i class="fas fa-link"></i> <a href="/future/">Admissions</a></p>
+							<p><i class="fas fa-map-marker-alt"></i> Museum Bldg #12, Room 426</p>
+							</div>
+							
+						</div><!-- .col-6 -->
+					</div><!-- .row -->
+					
+				</div><!-- .dropdown-menu-->
+		</li>
+		
+
+		<li class="nav-item dropdown menu-large">
+			<a class="nav-link dropdown-toggle" href="#" id="navbar-academics" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Graduate
+			</a>
+				<div class="dropdown-menu mega-menu" aria-labelledby="navbar-academics">
+					<div class="row">	
+						<div class="col-md-6 d-none d-xl-block">
+							<img class="img-fluid" src="images/grass.jpg" alt="Idaho State University">
+							<p>We have degrees in all sorts of stuff</p>
+						</div><!-- .col-6 -->
+												
+						<div class="col-md-6">
+								<div class="row">	
+									<div class="col-md-6">
+										<ul class="mega-menu-list">
+											<li><a href="academics.html"><strong>Overview</strong></a></li>
+											<li><a href="#">Undergraduate Majors</a></li>
+											<li><a href="#">Graduate Programs</a></li>
+											<li><a href="academics.html">Colleges &amp; Schools</a></li>
+											<li><a href="https://www.isu.edu/academic-calendar/">Academic Calendar</a></li>
+											<li><a href="http://coursecat.isu.edu/">Academic Catalogs</a></li>
+										</ul>
+									</div> <!-- .col-md-6 -->
+
+									<div class="col-md-6">
+										<ul class="mega-menu-list">
+											<li><a href="https://www.isu.edu/registrar">University Registrar</a></li>
+											<li><a href="https://www.isu.edu/career/">Career Center</a></li>
+											<li><a href="https://www.isu.edu/library/">Library</a></li>
+											<li><a href="https://www.isu.edu/commencement/">Commencement</a></li>
+										</ul>
+									</div> <!-- .col-md-6 -->
+								</div><!-- .row -->
+							<div class="d-flex justify-content-end align-items-center">
+							<div class="p-2"><button type="button" class="btn btn-warning"><i class="fas fa-graduation-cap"></i> FIND YOUR MAJOR</button></div>
+							</div>	
+<!--
+-->
+							
+						</div><!-- .col-6 -->					
+					</div><!-- .row -->
+
+				</div><!-- .dropdown-menu-->
+        </li>
+		
+
+		<li class="nav-item dropdown menu-large">
+			<a class="nav-link dropdown-toggle" href="#" id="navbar-about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			International
+			</a>
+				<div class="dropdown-menu mega-menu" aria-labelledby="navbar-about">
+					<div class="row">	
+						<div class="col-md-6 d-none d-xl-block">
+							<img class="img-fluid" src="images/grass.jpg" alt="Idaho State University">
+							<p>This is a university. Trees are made of wood.</p>
+						</div><!-- .col-6 -->
+												
+						<div class="col-md-6">
+								<div class="row">	
+									<div class="col-md-6">
+										<ul class="mega-menu-list">
+											<li><a href="about.shtml"><strong>Overview</strong></a></li>
+											<li><a href="administration.shtml">Administration</a></li>
+											<li><a href="#">Mission &amp; Objectives</a></li>
+											<li><a href="https://www.isu.edu/policy/">Policies and Procedures</a></li>
+											<li><a href="#">Strategic Plan</a></li>
+										</ul>
+									</div> <!-- .col-md-6 -->
+
+									<div class="col-md-6">
+										<ul class="mega-menu-list">
+											<li><a href="https://www.isu.edu/headlines">News</a></li>
+											<li><a href="calendar.shtml">Events</a></li>
+											<li><a href="maps.shtml">Campus Map</a></li>
+											<li><a href="https://busan.netel.isu.edu/isdb/">Directory</a></li>
+											<li><a href="http://jobs.isu.edu/">Employment</a></li>
+										</ul>
+									</div> <!-- .col-md-6 -->
+								</div><!-- .row -->
+							<div class="d-flex justify-content-end align-items-center">
+							<div class="p-2"><button type="button" class="btn btn-warning"><i class="fas fa-phone"></i> CONTACT US</button></div>
+							</div>	
+<!--
+							
+-->
+							
+						</div><!-- .col-6 -->					
+					</div><!-- .row -->
+				
+				</div><!-- .dropdown-menu-->
+        </li>
+	  
+		
+		<li class="nav-item dropdown menu-large">
+			<a class="nav-link dropdown-toggle" href="#" id="navbar-life" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Early College
+			</a>
+				<div class="dropdown-menu mega-menu" aria-labelledby="navbar-life">
+					<div class="row">	
+						<div class="col-md-6 d-none d-xl-block">
+							<img class="img-fluid" src="images/grass.jpg" alt="Idaho State University">
+							<p>There are things for students.</p>
+						</div><!-- .col-6 -->
+												
+						<div class="col-md-6">
+								<div class="row">	
+									<div class="col-md-6">
+										<ul class="mega-menu-list">
+											<li><a href="life.shtml"><strong>Overview</strong></a></li>
+											<li><a href="health.shtml">Health &amp; Wellness</a></li>
+											<li><a href="https://www.isu.edu/publicsafety/">Public Safety</a></li>
+											<li><a href="https://www.isu.edu/lead/">Student Involvement</a></li>
+											<li><a href="https://www.isu.edu/clubs/">Student Organizations</a></li>
+										</ul>
+									</div> <!-- .col-md-6 -->
+
+									<div class="col-md-6">
+										<ul class="mega-menu-list">
+											<li><a href="#">Dining</a></li>
+											<li><a href="https://www.isu.edu/housing/">Housing</a></li>
+											<li><a href="https://www.isu.edu/homecoming">Homecoming</a><mark>seasonal</mark></li>
+											<li><a href="https://www.isu.edu/traditions">Traditions</a></li>
+											<li><a href="https://www.isu.edu/union/">Student Union</a></li>
+											<li><a href="https://www.isu.edu/asisu/">ASISU Student Government</a></li>
+										</ul>
+									</div> <!-- .col-md-6 -->
+								</div><!-- .row -->
+							
+						</div><!-- .col-6 -->					
+					</div><!-- .row -->
+
+				</div><!-- .dropdown-menu-->
+        </li>
+
+	  
+	  
+    </ul>
+  </div><!-- .collapse -->
+</div><!-- .container -->
+</nav>
+</div><!-- .top-mega -->					
+		
+	<main id="content">
+<div class="container-fluid">
+<div class="row">
+	<div class="col-lg-12">
+		<h1 style="text-align:center; font-size:60px;">How to Apply</h1>
+		<p><mark>Random pictures</mark></p>
+	</div>
+</div><!-- row -->
+
+<div class="row equal-height">	
+	<div class="col-sm-6 col-md-3">
+    		    <div class="card profile-card-3">
+    		        <div class="background-block">
+    		            <img src="https://images.pexels.com/photos/1390850/pexels-photo-1390850.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="profile-sample1" class="background"/>
+    		        </div>
+
+    		        <div class="card-content">
+						<h3>Undergraduate</h3>
+						<p>You have never attended a university before, excluding ISU's Early College Program. You may also be a transfer student seeking a degree.</p>
+						<p class="button-outline"><a href="https://www.isu.edu/apply/undergraduate">Application Process</a></p>
+                    </div>
+                </div>
+	</div><!-- .col-3 -->
+	
+	<div class="col-sm-6 col-md-3">
+    		    <div class="card profile-card-3">
+    		        <div class="background-block">
+					
+    		            <img src="https://images.pexels.com/photos/1379636/pexels-photo-1379636.jpeg?auto=compress&cs=tinysrgb&h=1280&w=853" alt="profile-sample1" class="background"/>
+    		        </div>
+
+    		        <div class="card-content">
+			<h3>Graduate</h3>
+			<p>You have completed a bachelor's degree and are seeking to obtain an advanced degree.</p><br />
+						<p class="button-outline"><a href="https://www.isu.edu/apply/undergraduate">Application Process</a></p>
+                    </div>
+                </div>
+	</div><!-- .col-3 -->
+
+		<div class="col-sm-6 col-md-3">
+    		    <div class="card profile-card-3">
+    		        <div class="background-block">
+    		            <img src="https://images.pexels.com/photos/1424246/pexels-photo-1424246.jpeg?auto=compress&cs=tinysrgb&h=1280&w=853" alt="profile-sample1" class="background"/>
+    		        </div>
+
+    		        <div class="card-content">
+			<h3>International</h3>
+			
+			<p>You live outside the United States and are applying for admission to ISU.</p><br />
+						<p class="button-outline"><a href="https://www.isu.edu/apply/undergraduate">Application Process</a></p>
+                    </div>
+                </div>
+	</div><!-- .col-3 -->
+
+	
+		<div class="col-sm-6 col-md-3">
+    		    <div class="card profile-card-3">
+    		        <div class="background-block">
+					
+    		            <img src="https://images.pexels.com/photos/1391380/pexels-photo-1391380.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="profile-sample1" class="background"/>
+    		        </div>
+
+    		        <div class="card-content">
+			<h3>Early College</h3>
+			<p>ISU's Early College Program is designed for students who want to get a jump start on their college education while still attending high school.</p>
+						<p class="button-outline"><a href="https://www.isu.edu/apply/undergraduate">Application Process</a></p>
+                    </div>
+                </div>
+	</div><!-- .col-3 -->
+
+</div><!-- .row -->
+
+
+</div><!-- end container -->		</main><!-- .content -->
+	
+<!--#include virtual="includes/code-footer.html"-->
+	
+
+</body>
+</html>

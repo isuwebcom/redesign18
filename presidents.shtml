@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<title>Template no nav</title>
+<!--#include virtual="includes/code-head.html"-->
+	
+		
+</head>
+<body>
+<a id="SkipNav" href="#MainContent">Skip to Main Content</a>
+<!--#include virtual="includes/code-header-standard.html"-->
+
+		
+	<main id="content">
+		<div class="container">
+<h3>Presidents of ISU</h3>
+<img class="left" class="left" src="images/faris.jpg" alt="Principal John W. Faris" />
+<h4>Principal John W. Faris</h4>
+<p>1902-1907</p>
+<p>Faris sought to expand educational opportunities by providing preparatory courses for those with limited education who could not meet entrance requirements.  During his time, the Academy of Idaho became known as a finishing and technical school. </p>
+<br class="clearleft" />
+
+<img class="left" src="images/reed.jpg" alt="Principal Miles F. Reed" />
+<h4>Principal Miles F. Reed</h4>
+<p>1907-1919</p>
+<p>Reed believed that the goal of the school should be to provide technical training, teacher education and preparatory courses. He also worked to create a student newspaper, an annual and student scholarships. Academy of Idaho was renamed Idaho Technical institute under his charge. Reed Hall and, later, Reed Gym were named after him.</p>
+<p>Education: Reed received a Bachelor's from University of Idaho, and a Masters from Columbia Univeristy.</p>
+<br class="clearleft" />
+
+<!--
+<img class="left" src="images/adkinson.jpg" alt="President Norman B. Adkinson" />
+<h4>President Norman B. Adkinson</h4>
+<p>1918-1919</p>
+<p>Continued Reed's work and established the Departments of Engineering and Education.</p>
+<br class="clearleft" />
+-->
+
+<img class="left" src="images/frazier.jpg" alt="President Charles R. Frazier" />
+<h4>President Charles R. Frazier</h4>
+<p>1919-1925</p>
+<p>Enrollment grew 870 percent during his tenure. His vision was to create a school "where students can secure four years of education in any course". Frazier Hall is named after him.</p>
+<p>Education: Frazier had a bachelor's University of Wisconsin, and received additional schooling at Yale and the University of Chicago.</p>
+<br class="clearleft" />
+
+<img class="left" src="images/retherford.jpg" alt="President Jesse E. Retherford" />
+<h4>President Jesse E. Retherford</h4>
+<p>1925-1927</p>
+<p>During Retherford's tenure, there was much debate and controversy about the potential of the Idaho Technical Institute gaining a four-year status. Eventually, the legislature and the State Board of Education changed the school from an institute to University of Idaho Southern Branch.</p>
+<p>Education: Retherford received a bachelor's from Indiana University, and did advanced studies at the University of Chicago and Cornell.</p>
+<br class="clearleft" />
+
+<!--
+<img class="left" src="images/angell.jpg" alt="Executive Dean Martin F. Angell" />
+<h4>Executive Dean Martin F. Angell</h4>
+<p>1927-1929</p>
+<p></p>
+<br class="clearleft" />
+-->
+
+<img class="left" src="images/dyer.jpg" alt="Executive Dean John R. Dyer" />
+<h4>Executive Dean John R. Dyer</h4>
+<p>1929-1933</p>
+<p>Dyer brought national attention to ISU when he opened the College of Pharmacy's four-year bachelor's degree program. He was also known for helping students find jobs and afford school during tough economic conditions. Dyer was killed in a car accident in 1933 while on summer vacation. </p>
+<p>Education: Dyer had a bachelor's from Ohio State University, and a masters from University of Kansas.</p>
+<br class="clearleft" />
+
+<!--
+<img class="left" src="images/baldwin.jpg" alt="Executive Dean Ernest J. Baldwin" />
+<h4>Executive Dean Ernest J. Baldwin</h4>
+<p>1933-1934; 1942-1945</p>
+<p></p>
+<br class="clearleft" />
+-->
+
+<img class="left" src="images/nichols.jpg" alt="Executive Dean John R. Nichols" />
+<h4>Executive Dean John R. Nichols</h4>
+<p>1934-1946</p>
+<p>Despite difficult economic times, Nichols was successful at increasing the number of faculty and students. He was also able to secure funding to build Gravely Hall and the Student Union (now the Administration Building) without state money.</p>
+<p>Education: Nichols received a bachelor's from Oregon Agricultural College, and a masters and doctorate from Stanford.</p>
+<br class="clearleft" />
+
+<img class="left" src="images/mcintosh.jpg" alt="Carl W. McIntosh" />
+<h4>Carl W. McIntosh</h4>
+<p>Executive Dean 1946-1947</p>
+<p>President 1947-1959</p>
+<p>During his administration, Idaho State College, a four-year institution, was born. While serving as President, many veterans returned from World War II. This was the first time the school had a large number of nontraditional students and McIntosh allowed them to develop many of their own rules in the dormitories. For this reason McIntosh Manor, a housing complex for non-traditional students, bears his name. </p>
+<p>Education: McIntosh did undergraduate work at the University of Redlands, he earned a masters and doctorate from the University of Iowa.</p>
+<br class="clearleft" />
+
+<img class="left" src="images/walker.jpg" alt="President Donald Walker" />
+<h4>President Donald Walker</h4>
+<p>1960-1964</p>
+<p>Idaho State College became Idaho State University. He oversaw construction of several new buildings on campus, creation of several new degree programs and started adult education centers in Idaho Falls, Burley and Twin Falls. </p>
+<p>Education: Walker earned a bachelor's and masters degree at the University of Southern California, and a doctorate from Stanford.</p>
+<br class="clearleft" />
+
+<img class="left" src="images/davis.jpg" alt="President William Bud Davis" />
+<h4>President William "Bud" Davis</h4>
+<p>1965-1975</p>
+<p>Davis oversaw construction of Holt Arena, then called the Mini-dome. While he was in the presidential office, enrollment increased 75 percent and campus building square footage doubled. Davis was also known for being able to keep order during a tumultuous period that included controversial student protests and even a bomb scare. </p>
+<p>Education: Davis earned a bachelor's from University of Colorado, a masters degree from Colorado State College, and a doctorate from University of Colorado.</p>
+<br class="clearleft" />
+
+<img class="left" src="images/coulter.jpg" alt="President Myron L. Coulter" />
+<h4>President Myron L. Coulter</h4>
+<p>1976-1984</p>
+<p>Amidst an economic downturn, Coulter helped to add several new degree programs and worked to create capital campaigns such as 'I Love ISU.'</p>
+<p>Education: Coulter received a bachelor's from Indiana State University at Terre Haute, and masters and doctoral degrees from Indiana University.</p>
+<br class="clearleft" />
+
+<img class="left" src="images/bowen.jpg" alt="President Richard L. Bowen" />
+<h4>President Richard L. Bowen</h4>
+<p>1985-2005</p>
+<p>Bowen worked to create a Pharmacy PhD program, and negotiated the development of the Business Research Park. During his time, a new facility for ISU-Idaho Falls and the Stephens Performing Arts Center were built.</p>
+<p>Education: Bowen earned his bachelor's from Augustana College, and his masters and doctorate at Harvard.  </p>
+<br class="clearleft" />
+
+<img class="left" src="images/vailas.jpg" alt="President Arthur C. Vailas" />
+<h4>President Arthur C. Vailas</h4>
+<p>2006-</p>
+<p><a href="http://www.isu.edu/president/bio.shtml">Full Biography</a></p>
+<p>Education: Vailas recieved a bachelor's from University of New Hampshire, and a doctorate from University of Iowa.</p>
+<p></p>
+<br class="clearleft" />
+
+		</div><!-- .container -->
+	</main><!-- .content -->
+	
+	
+
+</body>
+</html>

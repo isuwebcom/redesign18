@@ -1,0 +1,377 @@
+/*==============================
+HEADER
+==============================*/
+
+#isuheader {
+    background-color: #222;
+    color: #FFF;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
+
+/* ---------- WORDMARK ---------- */
+
+#isuheader h1 {
+    margin: 0!important;
+    line-height: 0.1em;
+    text-indent: -9999em;
+}
+
+img.wordmark {
+    padding-top: 10px;
+}
+
+@media (max-width: 1000px) {
+    img.wordmark {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 0;
+    }
+    .header-link {
+        line-height: 1.2em;
+    }
+}
+
+@media (max-width:400px) {
+    .header-link {
+        line-height: 1em;
+        line-height: 1.2em;
+    }
+}
+
+
+/* ---------- NAVBARS ---------- */
+
+#isuheader .navbar {
+    background: #222;
+    margin-bottom: 0px;
+    border-color: transparent;
+}
+
+#isuheader .navbar-default {
+    border: 0;
+    border-radius: 0;
+}
+
+#isuheader .navbar-default .navbar-collapse {
+    border-color: rgba(255, 255, 255, .02);
+}
+
+#isuheader .navbar-default .navbar-toggle {
+    border-color: #ccc;
+    background-color: #333;
+}
+
+#isuheader .navbar-default .navbar-toggle .icon-bar {
+    background-color: #ccc;
+}
+
+#isuheader .navbar-default .navbar-toggle:hover,
+#isuheader .navbar-default .navbar-toggle:focus {
+    background-color: #f60;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#isuheader .navbar-default ul.nav {
+    margin-right: 5px;
+}
+
+/* Added T4 Michael Mason Nov 2015 - breadcrumbs navigation */
+#breadcrumbs .isu-breadcrumbs-row { padding-top: 15px; padding-bottom: 15px; }
+
+#breadcrumbs .isu-breadcrumb {
+    margin-bottom: 0;
+}
+
+@media (max-width: 970px) {
+    #isuheader .navbar-default ul.nav {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+#isuheader .navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 0 1px;
+}
+
+@media (max-width: 768px) {
+    #isuheader .navbar-default #action.nav li a {
+        float: left;
+    }
+}
+
+#isuheader .navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #f60;
+}
+
+#isuheader .navbar-default .navbar-nav>.active>a:hover,
+#isuheader .navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #f60;
+}
+
+@media (max-width: 1000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+}
+
+
+/* ---------- ACTION ---------- */
+
+#isuheader .navbar-default #action ul.nav {
+    border-bottom: 1px solid #666;
+}
+
+#isuheader .navbar-default #action .nav li a {
+    color: #f47920;
+    font-size: 16px;
+    padding: 3px 10px 10px;
+    line-height: 18px;
+}
+
+#isuheader .header-link {
+    padding-top: 3px;
+}
+
+#isuheader .fa-plus-circle {
+    line-height: 14px;
+}
+
+#isuheader .navbar-default #action .nav li a:hover,
+#isuheader .navbar-default #action .nav li a:focus {
+    outline: 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+#searchisu {
+    text-align: right;
+}
+
+#searchisu input:focus,
+#searchisu textarea:focus,
+#searchisu select:focus {
+    background-color: #FFF;
+}
+
+#searchisu input {
+    padding: 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    font-family: 'Oswald';
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+#searchisu input[type=submit] {
+    background-color: #222;
+    color: #f47920;
+    font-size: 16px;
+    padding: 3px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+#searchisu input[type=submit]:hover {
+    background-color: #f60;
+    color: #222;
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+@media (max-width: 970px) {
+    #searchisu {
+        text-align: left;
+    }
+    #searchisu input {
+        padding: 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        background-color: #efefef;
+        color: #f60;
+        border: none;
+        margin: 12px;
+    }
+    #searchisu input[type=submit] {
+        margin: 0;
+    }
+}
+
+
+/* ---------- AUDIENCES ---------- */
+
+#isuheader .navbar-default #audiences ul.nav {
+    margin-top: -17px;
+}
+
+#isuheader .navbar-default #audiences .nav li a {
+    text-transform: lowercase;
+    color: #95c244;
+    padding: 0 5px;
+    margin-bottom: 15px;
+    line-height: 10px;
+    border-right: 10px solid #666;
+}
+
+#isuheader .navbar-default #audiences .nav li a:hover,
+#isuheader .navbar-default #audiences .nav li a:focus {
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    border-right: 10px solid #f60;
+}
+
+@media (max-width: 1000px) {
+    #isuheader .navbar-default #audiences ul.nav {
+        margin-top: 15px;
+    }
+    #isuheader .navbar-default #audiences .nav li a {
+        padding: 0 5px;
+        margin-bottom: 15px;
+        line-height: 10px;
+        border-right: none;
+    }
+    #isuheader .navbar-default #audiences .nav li a:hover,
+    #isuheader .navbar-default #audiences .nav li a:focus {
+        outline: 0;
+        color: #fff;
+        background-color: #222;
+        border-right: none;
+    }
+}
+
+
+/* ---------- CATEGORIES ---------- */
+
+#isuheader .navbar-default #categories ul.nav {
+    border-top: 1px solid #666;
+}
+
+#isuheader .navbar-default #categories .nav li a {
+    font-size: 16px;
+  letter-spacing: 1px;
+    padding: 8px 0px 10px 10px;
+}
+
+#isuheader .navbar-default #categories .nav li a:hover,
+#isuheader .navbar-default #categories .nav li a:focus {
+    color: #f60;
+}
+
+
+/* ---------- PANEL ---------- */
+
+#quick-panel {
+    background-color: #222;
+    color: #FFF;
+    display: none;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+#quick-panel {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+}
+
+#quick-panel p {
+    font-size: 15px;
+    margin: 0;
+}
+
+#quick-panel a {
+    color: #efefef;
+    text-decoration: none;
+}
+
+#quick-panel a:hover {
+    color: #f60;
+    text-decoration: none;
+}
+
+#quick-panel ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+#quick-panel {
+    text-align: right;
+    line-height: 1.6em;
+}
+
+#quick-panel li {
+    font-size: 1.2em;
+    padding-bottom: 12px;
+}
+
+@media (max-width: 1000px) {
+    #quick-panel {
+        text-align: left;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

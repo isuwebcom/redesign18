@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<title>Template Bootstrap 4</title>
+
+<!-- ==============================
+CSS 
+=============================== -->	
+	<!-- Bootstrap CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Font Awesome -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	<!-- ISU Styles -->
+	<link href="css/styles18.css" rel="stylesheet">
+	
+	<!-- Yamm styles -->
+    <link href="css/yamm.css" rel="stylesheet">
+	
+<!-- ==============================
+SCRIPTS 
+=============================== -->	
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> 
+	
+	<!-- Bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	
+	<!-- Header quicklinks panel -->
+	<script src="https://www.isu.edu/media/top-level/scripts/header.js"></script>
+	
+	<!-- Popper-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> 
+	
+	
+	
+
+<!--- Back To Top Files ----->
+<link rel="stylesheet" type="text/css" href="https://www.isu.edu/media/top-level/css/libraries/back-top-top.css" />
+<script type="text/javascript" src="https://www.isu.edu/media/top-level/scripts/libraries/back-to-top.js"></script>
+
+		
+</head>
+<body>
+
+
+<a id="SkipNav" href="#MainContent">Skip to Main Content</a>
+
+
+
+
+
+					
+		
+	<section id="content">
+		<div class="container">
+
+
+
+
+<!-- ==============================
+HEADER 
+=============================== -->			
+		<h1 class="headerbar">Header code</h1>
+/*==============================
+HEADER
+==============================*/
+
+#isuheader {
+    background-color: #222;
+    color: #FFF;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+
+#isuheader ul.header-links {
+    list-style: none;
+    padding:0;
+	text-align:right;
+	font-size: 1.1rem;
+}
+
+#isuheader ul.header-links li {
+    display: inline;
+	padding-left: 0.5rem; 
+}
+
+#isuheader ul.header-links li a {
+    color: #efefef;
+}
+
+#isuheader ul.header-links li a:hover {
+    color: #f60;
+	text-decoration: none;
+}
+
+
+
+
+
+#searchisu {
+    text-align: right;
+}
+
+#searchisu input:focus,
+#searchisu textarea:focus,
+#searchisu select:focus {
+    background-color: #FFF;
+}
+
+#searchisu input {
+	line-height: 1;
+
+	
+}
+
+#searchisu button {
+	border-radius: 0;	
+}
+
+
+#isuheader ul.search-links {
+    list-style: none;
+    padding:0;
+	text-align: right;
+}
+
+#isuheader ul.search-links li {
+    display: inline;
+	padding-left: 0.5rem;
+	font-size: 0.9rem;
+}
+
+#isuheader ul.search-links li:after {
+    content: "|";
+	padding-left: 0.5rem;
+}
+#isuheader ul.search-links li:last-child:after {
+    content: "";
+	padding-left:0;
+}
+
+
+/* ---------- PANEL ---------- */
+
+#quick-panel {
+    background-color: #222;
+    color: #FFF;
+    display: none;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+#quick-panel {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+}
+
+#quick-panel p {
+    font-size: 15px;
+    margin: 0;
+}
+
+#quick-panel a {
+    color: #efefef;
+    text-decoration: none;
+}
+
+#quick-panel a:hover {
+    color: #f60;
+    text-decoration: none;
+}
+
+#quick-panel ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+#quick-panel {
+    text-align: right;
+    line-height: 1.6em;
+}
+
+#quick-panel li {
+    font-size: 1.2em;
+    padding-bottom: 12px;
+}
+
+@media (max-width: 1000px) {
+    #quick-panel {
+        text-align: left;
+    }
+}
+
+<header id="isuheader">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<a href="https://www.isu.edu/"><img class="img-fluid wordmark" src="images/wordmark.png" alt="Idaho State University" /></a>
+				</div>
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-8">
+                        <ul class="header-links" role="navigation">
+                            <li><a href="/apply/">Apply</a></li>
+                            <li><a href="/visit/">Visit</a></li>
+                            <li><a href="https://my.isu.edu/give">Give</a></li>
+                            <li class="header-link"><a href="#quick" class="quick">Quicklinks <i class="fa fa-plus"></i></a></li>
+                        </ul>
+						</div>
+						<div class="col-md-4">
+							<div id="searchisu">
+							<form role="form" name="search" id="searchbox_017622041740386324724:9ygqcyufsao" method="get" action="https://www.isu.edu/search/">
+								<div class="input-group pull-right">
+									<label class="sr-only" for="gsearch">Search</label>
+									<input type="text" class="form-control border-right-0 border" id="gsearch" name="q" placeholder="" value="">
+								<div class="input-group-append">
+									<button type="submit" class="btn border-left-0 border"><i class="fa fa-search"></i></button>
+								</div>
+								</div>
+							</form>
+							</div>
+								<ul class="search-links" role="navigation">
+									<li><a href="#">A-Z Index</a></li>
+									<li><a href="#">Directory</a></li>
+								</ul>					
+								</div>						
+					</div><!-- row -->
+				</div>		
+		
+
+
+			</div><!-- row -->
+			
+			
+                    <div id="quick-panel">
+						<div class="row">
+							<div class="col-md-3">
+							<ul><!-- #14 --><li><a href="/siteindex/">A-Z Index</a></li><li><a href="http://coursecat.isu.edu/" target="_blank">Academic Catalogs</a></li><li><a href="/administration/">Administration</a></li><li><a href="/advising/">Advising</a></li><li><a href="https://bengalweb.isu.edu">Bengal Web</a></li></ul>
+							</div>
+							<div class="col-md-3">
+							<ul><!-- #47 --><li><a href="/calendar/calendar-list/">Calendars and Schedules</a></li><li><a href="/publicsafety/">Campus Security</a></li><li><a href="https://ssb.isu.edu/bprod/bwckschd.p_disp_dyn_sched">Class Schedule</a></li><li><a href="/academics/">Colleges/Departments</a></li><li><a href="http://ds.netel.isu.edu/isdb/">Directories (Phone/Email)</a></li></ul>
+							</div>
+							<div class="col-md-3">
+							<ul><!-- #47 --><li><a href="/publicsafety/emergency-management/">Emergency Information</a></li><li><a href="https://isu.csod.com/ats/careersite/search.aspx?site=1&c=isu ">Employment Opportunities</a></li><li><a href="/google/">Google Apps</a></li><li><a href="/its/">IT Services</a></li><li><a href="/library/">Library</a></li></ul>
+							</div>
+							<div class="col-md-3">
+							<ul><!-- #49 --><li><a href="/maps/">Maps and Directions</a></li><li><a href="https://elearn.isu.edu/">Moodle</a></li><li><a href="/imnh/" target="_blank">Museum</a></li><li><a href="/policy/">Policies and Procedures</a></li></ul>
+							</div>
+						</div>
+					</div>
+		</div> <!-- end container -->
+</header>
+		
+		<p>I've opened a door here that I regret. I'm afraid I just blue myself. First place chick is hot, but has an attitude, doesn't date magicians. No… but I'd like to be asked!</p>
+		<p>That's why you always leave a note! I've opened a door here that I regret. <strong> I don't criticize you!</strong> <em> And if you're worried about criticism, sometimes a diet is the best defense.</em> That's why you always leave a note!</p>
+		<p>Not tricks, Michael, illusions. There's only one man I've ever called a coward, and that's Brian Doyle Murray. No, what I'm calling you is a television actor. Across from where? Say goodbye to these, because it's the last time!</p>
+
+		</div><!-- end container -->
+	</section><!-- end content -->
+	
+	
+
+
+</body>
+</html>

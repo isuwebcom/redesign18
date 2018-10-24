@@ -1,0 +1,236 @@
+#sidenav {
+    font-family: 'Oswald';
+    background-color: #333;
+}
+
+#sidenav .navbar {
+    border: none;
+    background-color: #333;
+}
+
+#sidenav .navbar-default {
+    border: none;
+    border-radius: 0;
+}
+
+#sidenav .brand {
+    background-color: #fff;
+    color: #222;
+    display: block;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+#sidenav .brand a {
+    color: #222;
+}
+
+#sidenav .brand a:hover {
+    color: #cc4c00;
+    text-decoration: none;
+}
+
+#sidenav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#sidenav ul > li {
+    border-left: 3px solid #333;
+    border-bottom: 1px solid #efefef;
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0px 4px;
+}
+
+#sidenav li:hover,
+#sidenav li:active,
+#sidenav li:focus {
+    border-left: 3px solid #95c244;
+    background-color: #444;
+    color: #efefef;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#sidenav li > a {
+    text-decoration: none;
+    outline: none;
+    color: #f47920;
+    display: block;
+    padding: 0px 4px;
+}
+
+#sidenav li a:hover,
+#sidenav li a:active,
+#sidenav li a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+#sidenav ul > li > ul > li {
+    padding: 0px 0px 0px 24px!important;
+}
+
+/* arrow is only added if a navigation element is expandable */
+#sidenav ul > .expandable > a {
+    display: block;
+    outline: none;
+}
+
+/* hide any nested nested uls */
+.expandable ul ul {
+    display: none;
+}
+
+#sidenav ul > .expandable > a:before {
+    content: "\f078";
+    font-family: FontAwesome;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    float: right;
+    font-size: 10px;
+}
+
+#sidenav ul .multilevel-linkul-0 li,
+#sidenav li .multilevel-linkul-0 li {
+    background-color: #333;
+    border-bottom: 1px solid #999;
+    margin-left: 0px;
+    padding: 2px;
+    display: block;
+}
+
+#sidenav ul .multilevel-linkul-0 li > a {
+    display: block;
+}
+
+#sidenav ul .multilevel-linkul-0 li:last-child {
+    border-bottom: none;
+}
+
+#sidenav ul .multilevel-linkul-0 li:hover,
+#sidenav li .multilevel-linkul-0 li:hover {
+    background-color: #444;
+}
+
+#sidenav .navbar-default .navbar-collapse {
+    border-color: rgba(255, 102, 0, .02);
+}
+
+#sidenav .navbar-default .navbar-toggle {
+    border-color: #f60;
+    background-color: #333;
+}
+
+#sidenav span.glyphicon-arrow-down {
+    color: #f60;
+}
+
+span.menu-name {
+    font-family: 'Oswald';
+}
+
+#sidenav .navbar-brand {
+    color: #f4bb2d;
+}
+
+/* side nav no top padding on mobile */
+@media (max-width: 1000px) {
+    #mobile-nav-container {
+        padding-top: 0px !important;
+    }
+}
+
+#sidenav .navbar-default .navbar-toggle:hover,
+#sidenav .navbar-default .navbar-toggle:focus {
+    background-color: #111;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#sidenav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+}
+
+#sidenav .navbar ul {
+    float: none;
+}
+
+#sidenav .navbar ul:not {
+    display: block;
+}
+
+#sidenav .navbar li {
+    float: none;
+    display: block;
+}
+
+#sidenav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#categories li > ul {
+    display: none
+}
+
+.expand {
+    position: relative;    
+}
+
+.expand a:first-of-type {
+    width: calc(100% - 40px);
+}
+
+.plus, .minus {
+	background: #3b3b3b;
+	display: inline-block;
+	width: 32px;
+	height: 30px;
+	text-align: center;
+    vertical-align: text-bottom;
+	position: absolute;
+  	right: 4px;
+   	top: 8px;
+   	border: 1px solid #333;
+   	border-radius: 0;
+   	font-size: 40px;
+   	line-height: 0;
+}
+
+.plus:hover, 
+.minus:hover,
+.plus:focus, 
+.minus:focus {
+    border-color: #ccc;
+    background-color: #666; 
+}
+
+#sidenav .multilevel-linkul-0 li.Selected,
+#sidenav li.Selected {
+    border-left: 3px solid #95c244;
+    background-color: #444;
+    color: #fff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#sidenav .multilevel-linkul-0 li.Selected > a:first-child,
+#sidenav li.Selected > a:first-child {
+    color: white;
+}

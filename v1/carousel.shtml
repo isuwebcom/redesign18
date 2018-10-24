@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<title>Carousel</title>
+<!--#include virtual="includes/code-head.html"-->
+	
+		
+</head>
+<body>
+<a id="SkipNav" href="#MainContent">Skip to Main Content</a>
+<!--#include virtual="includes/code-header-standard.html"-->
+
+		
+	<main id="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>Carousel</h1>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="img-fluid" src="https://www.isu.edu/media/top-level/homies/homies-2018/EarthsThickness.jpg" alt="Los Angeles">
+    </div>
+    <div class="carousel-item">
+      <img class="img-fluid" src="https://www.isu.edu/media/top-level/homies/homies-2018/CareerHandshake-(1).jpg" alt="Chicago">
+    </div>
+    <div class="carousel-item">
+      <img class="img-fluid" src="https://www.isu.edu/media/top-level/homies/homies-2018/ILoveISU-(2).jpg" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+				</div><!-- .col-12 -->
+			</div><!-- .row -->
+
+		</div><!-- .container -->
+	</main><!-- .content -->
+	
+<!--#include virtual="includes/code-footer.html"-->
+	
+
+</body>
+</html>

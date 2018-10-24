@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<title>Contact Us</title>
+<!--#include virtual="includes/code-head.html"-->
+	
+		
+</head>
+<body>
+<a id="SkipNav" href="#MainContent">Skip to Main Content</a>
+<!--#include virtual="includes/code-header-top-level.html"-->
+<!--#include virtual="includes/code-mega-menu.html"-->
+
+		
+	<main id="content">
+		<div class="container">
+<div class="row">
+	<div class="col-md-12">
+		<h1>Contact Us</h1>
+		<p><mark>Spacing on this page is too tight and too spacey</mark></p>
+	</div><!-- .col-12 -->
+</div><!-- .row -->
+
+<div class="row">	
+	<div class="col-md-4">
+	<div class="card">
+	<div class="card-body">
+	<h4>General Contact</h4>
+	<p><strong>Idaho State University</strong></p>
+	<p><i class="fas fa-phone"></i> <a href="tel:2082824636">(208) 282-4636</a></p>
+	<p><i class="far fa-envelope"></i> <a href="mailto:info@isu.edu">info@isu.edu</a></p>
+	<p><i class="fas fa-map-marker-alt"></i> 921 South 8th Avenue<br />
+	Pocatello, Idaho, 83209</p>
+	</div>
+	</div>
+
+	</div><!-- .col-4 -->
+
+	<div class="col-md-8">
+	<h4>Emergency and Safety</h4>
+
+<div class="row">	
+	<div class="col-md-4">
+<p><strong>Public Safety</strong></p>
+<p><i class="fas fa-phone"></i> <a href="tel:2082822515">(208) 282-2515</a></p>
+<p><i class="far fa-envelope"></i> <a href="mailto:pubsafe@isu.edu">pubsafe@isu.edu</a></p>
+<p><i class="fas fa-link"></i> <a href="https://www.isu.edu/publicsafety/">Public Safety</a></p>
+<p><i class="fas fa-map-marker-alt"></i> Public Safety Bldg #27</p>
+<p><a href="https://www.isu.edu/publicsafety/incident-report-form/">Report an Incident or Crime</a></p>
+
+	</div><!-- .col-4 -->
+	
+	<div class="col-md-4">
+<p><strong>Emergency Management</strong></p>
+<p><i class="fas fa-phone"></i> <a href="tel:2082822515">(208) 282-2515</a></p>
+<p><i class="far fa-envelope"></i> <a href="mailto:pubsafe@isu.edu">pubsafe@isu.edu</a></p>
+<p><i class="fas fa-link"></i> <a href="https://www.isu.edu/publicsafety/emergency-management/">Emergency Management</a></p>
+
+	</div><!-- .col-4 -->
+	
+	<div class="col-md-4">
+<p><strong>Counseling Center</strong></p>
+<p><i class="fas fa-phone"></i> <a href="tel:2082822130">(208) 282-2130</a></p>
+<p><i class="fas fa-link"></i> <a href="https://www.isu.edu/ctc/">Counseling Center</a></p>
+<p><i class="fas fa-map-marker-alt"></i> Graveley Hall, South Tower, Room 351 </p>
+
+	</div><!-- .col-4 -->
+	
+</div><!-- .row -->
+
+
+
+	</div><!-- .col-8 -->
+</div><!-- .row -->
+</div><!-- .container -->
+
+<div class="container-fluid bg-light">
+<div class="container">
+<div class="row">
+	<div class="col-md-12">
+<h3 class="mt-2">Admissions</h3>
+	</div><!-- .col-12 -->
+</div><!-- .row -->
+
+<div class="row">
+	<div class="col-md-3">
+    	<p><strong>Undergraduate Admissions</strong></p>
+<p><i class="fas fa-phone"></i> <a href="tel:2082822475">(208) 282-2475</a></p>
+<p><i class="far fa-envelope"></i> <a href="mailto:admiss@isu.edu">admiss@isu.edu</a></p>
+<p><i class="fas fa-link"></i> <a href="/future/">Admissions</a></p>
+<p><i class="fas fa-map-marker-alt"></i> Museum Bldg #12, Room 426</p>
+
+	</div><!-- .col-3 -->
+	
+	<div class="col-md-3">
+        <p><strong>Graduate Admissions</strong></p>
+<p><i class="fas fa-phone"></i> <a href="tel:2082822150">(208) 282-2150</a></p>
+<p><i class="far fa-envelope"></i> <a href="mailto:gradschool@isu.edu"> gradschool@isu.edu</a></p>
+<p><i class="fas fa-link"></i> <a href="/graduate/">Graduate</a></p>
+<p><i class="fas fa-map-marker-alt"></i> Museum Bldg #12, Room 401</p>
+
+	</div><!-- .col-3 -->
+	
+	<div class="col-md-3">
+        <p><strong>International Admissions</strong></p>
+<p><i class="fas fa-phone"></i> <a href="tel:2082824320">(208) 282-4320</a></p>
+<p><i class="far fa-envelope"></i> <a href="mailto:ipomail@isu.edu">ipomail@isu.edu</a></p>
+<p><i class="fas fa-link"></i> <a href="/ipo/">International Programs Office</a></p>
+<p><i class="fas fa-map-marker-alt"></i> Museum Building #12, Room 426</p>
+
+	</div><!-- .col-3 -->
+	
+	<div class="col-md-3">
+        <p><strong>Early College</strong></p>
+<p><i class="fas fa-phone"></i> <a href="tel:2082826067">(208) 282-6067</a></p>
+<p><i class="far fa-envelope"></i> <a href="mailto:ecp@isu.edu">ecp@isu.edu</a></p>
+<p><i class="fas fa-link"></i> <a href="/ipo/">Early College Program</a></p>
+<p><i class="fas fa-map-marker-alt"></i> Fine Arts Building #11, Room 309</p>
+
+	</div><!-- .col-3 -->
+	
+	
+</div><!-- .row -->
+</div><!-- .container -->
+</div><!-- .container-fluid -->
+
+
+<div class="container">
+<div class="row">
+	<div class="col-md-12">
+<h3 class="mt-2">Student Services</h3>
+	</div><!-- .col-12 -->
+</div><!-- .row -->
+<div class="row">
+<div class="col-md-4">
+<p><strong>Financial Aid</strong></p>
+<p><i class="fas fa-phone"></i> <a href="tel:2082822756">(208) 282-2756</a></p>
+<p><i class="far fa-envelope"></i> <a href="mailto:finaidem@isu.edu">finaidem@isu.edu</a></p>
+<p><i class="fas fa-link"></i> <a href="/financialaid/">Financial Aid</a></p>
+<p><i class="fas fa-map-marker-alt"></i>  Museum Bldg #12, Room 337</p>
+</div><!-- .col-4 -->
+
+<div class="col-md-4">
+<p><strong>Scholarships</strong></p>
+<p><i class="fas fa-phone"></i> <a href="tel:2082823315">(208) 282-3315</a></p>
+<p><i class="far fa-envelope"></i> <a href="mailto:scholar@isu.edu">scholar@isu.edu</a></p>
+<p><i class="fas fa-link"></i> <a href="/scholarships/">Scholarships</a></p>
+<p><i class="fas fa-map-marker-alt"></i>  Museum Bldg #12, Room 327</p>
+</div><!-- .col-4 -->
+
+<div class="col-md-4">
+<p><strong>Housing</strong></p>
+<p><i class="fas fa-phone"></i> <a href="tel:2082822120">(208) 282-2120</a></p>
+<p><i class="far fa-envelope"></i> <a href="mailto:reslife@isu.edu">reslife@isu.edu</a></p>
+<p><i class="fas fa-link"></i> <a href="https://www.isu.edu/housing/">Housing</a></p>
+<p><i class="fas fa-map-marker-alt"></i>  745 S. 5th Ave</p>
+</div><!-- .col-4 -->
+
+</div><!-- .row -->
+
+<div class="row">
+<div class="col-md-4">
+<p><strong>Parking</strong></p>
+<p><i class="fas fa-phone"></i> <a href="tel:2082822625">(208) 282-2625</a></p>
+<p><i class="far fa-envelope"></i> <a href="mailto:pubsafe@isu.edu">pubsafe@isu.edu</a></p>
+<p><i class="fas fa-link"></i> <a href="/parking/faq/">Parking FAQ</a></p>
+<p><i class="fas fa-map-marker-alt"></i>  Public Safety Bldg #27</p>
+</div><!-- .col-4 -->
+
+<div class="col-md-4">
+<p><strong>Registrar</strong></p>
+<p><i class="fas fa-phone"></i> <a href="tel:2082822661">(208) 282-2661</a></p>
+<p><i class="far fa-envelope"></i> <a href="mailto:reginfo@isu.edu">reginfo@isu.edu</a></p>
+<p><i class="fas fa-link"></i> <a href="/registrar/">Registrar</a></p>
+<p><i class="fas fa-map-marker-alt"></i>  Museum Bldg #12, Room 318</p>
+</div><!-- .col-4 -->
+
+<div class="col-md-4">
+<p><strong>Transcripts</strong></p>
+<p><i class="fas fa-phone"></i> <a href="tel:2082822661">(208) 282-2661</a></p>
+<p><i class="far fa-envelope"></i> <a href="mailto:transcriptordering@isu.edu">transcriptordering@isu.edu</a></p>
+<p><i class="fas fa-link"></i> <a href="/registrar/">Registrar</a></p>
+<p><i class="fas fa-map-marker-alt"></i>  Museum Bldg #12, Room 318</p>
+</div><!-- .col-4 -->
+
+</div><!-- .row -->
+
+<div class="row">
+<div class="col-md-4">
+<p><strong>Bengal Card</strong></p>
+<p><i class="fas fa-phone"></i> <a href="tel:2082823618">(208) 282-3618</a></p>
+<p><i class="far fa-envelope"></i> <a href="mailto:photoid@isu.edu">photoid@isu.edu</a></p>
+<p><i class="fas fa-link"></i> <a href="https://www.isu.edu/bengalcard/">Bengal Card</a></p>
+<p><i class="fas fa-map-marker-alt"></i>  Public Safety Bldg #27</p>
+</div><!-- .col-4 -->
+
+<div class="col-md-4">
+<p><strong>IT Help Desk</strong></p>
+<p><i class="fas fa-phone"></i> <a href="tel:2082824357">(208) 282-4357</a></p>
+<p><i class="far fa-envelope"></i> <a href="mailto:help@isu.edu">help@isu.edu</a></p>
+<p><i class="fas fa-link"></i> <a href="https://www.isu.edu/its/service-desk/">Help Desk</a></p>
+<p><i class="fas fa-map-marker-alt"></i>  Business Administration</p>
+</div><!-- .col-4 -->
+
+</div><!-- .row -->
+
+</div><!-- .container -->
+
+
+<div class="container-fluid bg-light">
+<div class="container">
+<div class="row">
+	<div class="col-md-12">
+<h3 class="mt-2">Campus Locations</h3>
+	</div><!-- .col-12 -->
+</div><!-- .row -->
+
+<div class="row">
+<div class="col-md-3">
+<p><strong>Pocatello</strong></p>
+	<p><i class="fas fa-phone"></i> <a href="tel:2082824636">(208) 282-4636</a></p>
+	<p><i class="far fa-envelope"></i> <a href="mailto:info@isu.edu">info@isu.edu</a></p>
+<p><i class="fas fa-link"></i> <a href="#">www.isu.edu</a></p>
+	<p><i class="fas fa-map-marker-alt"></i> 921 South 8th Avenue<br />
+Pocatello, Idaho, 83209</p>
+</div><!-- .col-3 -->
+	
+<div class="col-md-3">
+<p><strong>Meridian</strong></p>
+<p><i class="fas fa-phone"></i> <a href="tel:2082821700">(208) 282-1700</a></p>
+<p><i class="far fa-envelope"></i> <a href="mailto:ISUMeridian@isu.edu">ISUMeridian@isu.edu</a></p>
+<p><i class="fas fa-link"></i> <a href="/meridian/">Meridian</a></p>
+<p><i class="fas fa-map-marker-alt"></i>  Sam and Aline Skaggs Health Science Center<br />1311 E. Central Drive<br>Meridian, ID 83642</p>
+</div><!-- .col-3 -->
+
+<div class="col-md-3">
+<p><strong>Idaho Falls</strong></p>
+<p><i class="fas fa-phone"></i> <a href="tel:2082827880">(208) 282-7880</a></p>
+<p><i class="far fa-envelope"></i> <a href="mailto:info@isu.edu">info@isu.edu</a></p>
+<p><i class="fas fa-link"></i> <a href="/idahofalls/">Idaho Falls</a></p>
+<p><i class="fas fa-map-marker-alt"></i>  ISU-Idaho Falls<br>1784 Science Center Dr.<br>Idaho Falls, ID 83402</p>
+</div><!-- .col-3 -->
+
+<div class="col-md-3">
+<p><strong>Twin Falls</strong></p>
+<p><i class="fas fa-phone"></i> <a href="tel:2089332300">(208) 933-2300</a></p>
+<p><i class="far fa-envelope"></i> <a href="mailto:info@isu.edu">info@isu.edu</a></p>
+<p><i class="fas fa-link"></i> <a href="/twinfalls/">Twin Falls</a></p>
+<p><i class="fas fa-map-marker-alt"></i>  CSI Hepworth Building<br />Suite 144<br>P.O. Box 1238<br>Twin Falls, ID 83303</p>
+</div><!-- .col-3 -->
+	
+</div><!-- .row -->
+</div><!-- .container -->
+</div><!-- .container-fluid -->
+	</main><!-- .content -->
+	
+<!--#include virtual="includes/code-footer.html"-->
+	
+
+</body>
+</html>

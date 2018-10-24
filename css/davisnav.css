@@ -1,0 +1,246 @@
+
+.menu {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+.menu li {
+	padding-left: 0;
+	background-image: none;
+	overflow-x: inherit
+}
+
+.menu li li {
+	list-style: none
+}
+
+.menu li {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+.menu li li {
+	padding-left: 0;
+	background-image: none;
+	overflow-x: inherit
+}
+
+.menu li li li {
+	list-style: none
+}
+
+
+
+.primary-nav {
+	background-color: #fff
+}
+
+@media (min-width:992px) {
+	.is-desktop-nav .primary-nav {
+		overflow: hidden;
+		max-height: 66px;
+		transition: max-height .3s
+	}
+	.is-desktop-nav .primary-nav.is-hover {
+		max-height: 600px
+	}
+	.flexbox .is-desktop-nav .primary-nav>.menu {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start
+	}
+	.is-desktop-nav .primary-nav li {
+		display: none;
+		float: left;
+		width: 10em
+	}
+	.is-desktop-nav .primary-nav li.is-visible {
+		display: block
+	}
+}
+
+@media (min-width:992px) and (min-width:1200px) {
+	.is-desktop-nav .primary-nav li {
+		width: 11.5em
+	}
+}
+
+@media (min-width:992px) {
+	.flexbox .is-desktop-nav .primary-nav li {
+		-ms-flex-preferred-size: 0;
+		flex-basis: 0;
+		-webkit-box-flex: 1;
+		-ms-flex-positive: 1;
+		flex-grow: 1;
+		float: none;
+		width: auto
+	}
+	.is-desktop-nav .primary-nav li:hover {
+		background: #f8eecc
+	}
+}
+
+.primary-nav a {
+	display: block;
+	border-bottom: 1px solid #555;
+	padding-left: 1em;
+	background: #fff;
+	color: #002855;
+	font-weight: 700;
+	line-height: 66px;
+	text-decoration: none;
+	text-transform: uppercase
+}
+
+@media (min-width:992px) {
+	.is-desktop-nav .primary-nav a {
+		font-size: 15px;
+		font-size: .9375rem;
+		line-height: 66px;
+		border-bottom: 0;
+		padding: 0 1em;
+		background: none
+	}
+}
+
+@media (min-width:1100px) {
+	.is-desktop-nav .primary-nav a {
+		font-size: 17px;
+		font-size: 1.0625rem;
+		line-height: 66px
+	}
+}
+
+@media (min-width:1600px) {
+	.is-desktop-nav .primary-nav a {
+		font-size: 18px;
+		font-size: 1.125rem;
+		line-height: 66px
+	}
+}
+
+.primary-nav a:hover {
+	background: #daaa00
+}
+
+.primary-nav a:focus,
+.primary-nav a .active {
+	background: #daaa00
+}
+
+.primary-nav li li a {
+	border-color: #fff;
+	background: #fbf6e5;
+	font-weight: 400;
+	text-transform: none
+}
+
+@media (min-width:992px) {
+	.is-desktop-nav .primary-nav li li a {
+		font-size: 15px;
+		font-size: .9375rem;
+		line-height: 1.35;
+		padding: .5em 1em;
+		background: none
+	}
+	.is-desktop-nav .primary-nav li li a:focus {
+		background: #daaa00
+	}
+	.is-desktop-nav .primary-nav li li a:hover {
+		background: #daaa00
+	}
+}
+
+@media (min-width:1200px) {
+	.is-desktop-nav .primary-nav li li a {
+		font-size: 17px;
+		font-size: 1.0625rem;
+		line-height: 1.35
+	}
+}
+
+.primary-nav li li li a {
+	background: #f4e5b2
+}
+
+.submenu-toggle {
+	display: block;
+	float: right;
+	height: 66px;
+	padding-bottom: 1px;
+	width: 50px;
+	background: #002855;
+	text-align: center
+}
+
+@media (min-width:310px) {
+	.submenu-toggle {
+		width: 66px
+	}
+}
+
+@media (min-width:992px) {
+	.is-desktop-nav .submenu-toggle {
+		display: none
+	}
+}
+
+.lt-ie8 .submenu-toggle {
+	position: relative;
+	top: -66px
+}
+
+a:hover .submenu-toggle {
+	background: #836600
+}
+
+.submenu-toggle--open .submenu-toggle__icon:before {
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg)
+}
+
+.submenu-toggle__icon {
+	top: 50%;
+	position: relative;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	display: block;
+	left: 30%;
+	z-index: 830;
+	height: 3px;
+	width: 40%;
+	background-color: #fff;
+	font-size: 0
+}
+
+.lt-ie8 .submenu-toggle__icon {
+	left: 0
+}
+
+.submenu-toggle__icon:before {
+	left: 0;
+	position: absolute;
+	z-index: 830;
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+	content: "";
+	transition: all .3s;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg)
+}
+
+a:hover .submenu-toggle__icon {
+	background-color: #fff
+}
+
+a:hover .submenu-toggle__icon:before {
+	background-color: #fff
+}

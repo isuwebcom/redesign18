@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<title>Dining</title>
+
+<!-- ==============================
+CSS 
+=============================== -->	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	
+	<!-- ISU Styles -->
+	<link href="css/styles18.css" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,600,300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600" rel="stylesheet">	
+
+<!-- ==============================
+SCRIPTS 
+=============================== -->	
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="scripts/jquery.mixitup.js"></script>
+  <script>
+    $(document).ready(function() {
+      //MixitUp
+      $(function() {
+        $('#location-items').mixItUp();
+      });
+    });
+  </script>
+
+
+<style>
+.controls {
+  text-align: center;
+  padding: 20px;
+}
+
+a:not([href]):not([tabindex]) {
+  color: #222;
+}
+
+a:focus:not([href]):not([tabindex]), a:hover:not([href]):not([tabindex]) {
+  color: #555;
+}
+
+.controls .active {
+  color: #fff !important;
+  background: #ff8a44;
+}
+
+
+
+.locations{ 
+  -webkit-backface-visibility: hidden;
+}
+
+
+.locations .mix{
+  display: none;
+}
+
+#location-items .card {
+	margin-bottom: 1rem;
+}
+</style>  
+
+<!--- Back To Top Files ----->
+<link rel="stylesheet" type="text/css" href="https://www.isu.edu/media/top-level/css/libraries/back-top-top.css" />
+<script type="text/javascript" src="https://www.isu.edu/media/top-level/scripts/libraries/back-to-top.js"></script>
+
+	
+		
+</head>
+<body>
+
+
+<a id="SkipNav" href="#MainContent">Skip to Main Content</a>
+
+
+		<div class="top-nav sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light-top">
+              <div class="container">
+                <a class="navbar-brand" href="dining.shtml">Dining</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar1">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="about.html">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.isu.edu/housing/meal-plans/">Meal plans</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.dineoncampus.com/isu/catering-information">Catering</a>
+                    </li>
+                  </ul>                
+				  </div>
+              </div>
+            </nav>
+		</div>
+		
+		
+	<section id="content">
+		<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Dining on Campus</h1>
+				<img class="img-fluid" src="images/dining.jpg" alt="Idaho State University">
+			</div><!-- .col-12 -->
+		</div><!-- .row -->		
+		
+
+		
+              <div class="controls text-center wow fadeInUpQuick" data-wow-delay=".6s">
+                <a class="filter active btn btn-common" data-filter="all">
+                  All 
+                </a>
+                <a class="filter btn btn-common" data-filter=".union">
+                  Student Union 
+                </a>
+                <a class="filter btn btn-common" data-filter=".rendezvous">
+                  Rendezvous
+                </a>
+                <a class="filter btn btn-common" data-filter=".turner">
+                  Turner 
+                </a>
+              </div>
+
+<div id="location-items" class="locations">
+<div class="row">	
+    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix rendezvous">
+		<div class="card">
+		  <div class="card-body">
+			<h4 class="card-title">Build</h4>
+			<p><i class="fas fa-utensils"></i>  Pizza, pasta, specialty sides</p>
+			<p><i class="far fa-clock"></i> Monday - Thursday<br /> 10:30 a.m. - 2 p.m.</p>
+			<p><i class="far fa-clock"></i> Friday<br /> 10:30 a.m. - 1:30 p.m.</p>
+			<p><i class="fas fa-map-marker-alt"></i> Rendezvous</p>
+		  </div>
+		</div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix union">
+		<div class="card">
+		  <div class="card-body">
+			<h4 class="card-title">Burger 208</h4>
+			<p><i class="fas fa-utensils"></i> Burgers, fries, milkshakes</p>
+			<p><i class="far fa-clock"></i> Monday - Friday</p>
+			<p><i class="fas fa-map-marker-alt"></i> Pond Student Union</p>
+		  </div>
+		</div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix union">
+		<div class="card">
+		  <div class="card-body">
+			<h4 class="card-title">Einstein Bros Bagels</h4>
+			<p><i class="fas fa-utensils"></i> Bagels, blended beverages, coffee, bagel dogs, pizza bagels, freshly-made salads</p>
+			<p><i class="far fa-clock"></i> Monday - Friday 7 a.m. - 7 p.m.</p>
+			<p><i class="fas fa-map-marker-alt"></i> Pond Student Union</p>
+		  </div>
+		</div>
+  </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix union">
+		<div class="card">
+		  <div class="card-body">
+			<h4 class="card-title">Mandalay Bay Express</h4>
+			<p><i class="fas fa-utensils"></i> Asian fusion cuisine</p>
+			<p><i class="far fa-clock"></i> Monday - Friday</p>
+			<p><i class="fas fa-map-marker-alt"></i> Pond Student Union</p>
+		  </div>
+		</div>
+  </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix rendezvous">
+		<div class="card">
+		  <div class="card-body">
+			<h4 class="card-title">Mondo Subs</h4>
+			<p><i class="fas fa-utensils"></i>  Gourmet signature subs</p>
+			<p><i class="far fa-clock"></i> Monday - Thursday<br /> 10:30 a.m. - 2 p.m.</p>
+			<p><i class="far fa-clock"></i> Friday<br /> 10:30 a.m. - 1:30 p.m.</p>
+			<p><i class="fas fa-map-marker-alt"></i> Rendezvous</p>
+		  </div>
+		</div>
+  </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix rendezvous">
+		<div class="card">
+		  <div class="card-body">
+			<h4 class="card-title">Outtakes</h4>
+			<p><i class="fas fa-utensils"></i> On-The-Go sandwiches, salads and snacks, Starbucks coffee</p>
+			<p><i class="far fa-clock"></i> Monday - Thursday<br /> 10:30 a.m. - 2 p.m.</p>
+			<p><i class="far fa-clock"></i> Friday<br /> 10:30 a.m. - 1:30 p.m.</p>
+			<p><i class="fas fa-map-marker-alt"></i> Rendezvous</p>
+		  </div>
+		</div>
+  </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix rendezvous">
+		<div class="card">
+		  <div class="card-body">
+			<h4 class="card-title">Revolution Noodle</h4>
+			<p><i class="fas fa-utensils"></i>  Authentic Asian cuisine</p>
+			<p><i class="far fa-clock"></i> Monday - Thursday<br /> 10:30 a.m. - 2 p.m.</p>
+			<p><i class="far fa-clock"></i> Friday<br /> 10:30 a.m. - 1:30 p.m.</p>
+			<p><i class="fas fa-map-marker-alt"></i> Rendezvous</p>
+		  </div>
+		</div>
+  </div>
+  
+    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix rendezvous">
+		<div class="card">
+		  <div class="card-body">
+			<h4 class="card-title">Smoked</h4>
+			<p><i class="fas fa-utensils"></i>  Sauced, pulled, and sliced mesquite smoked meats with sides like baked potatoes, mac 'n' chese or baked beans</p>
+			<p><i class="far fa-clock"></i> Monday - Thursday<br /> 10:30 a.m. - 2 p.m.</p>
+			<p><i class="far fa-clock"></i> Friday<br /> 10:30 a.m. - 1:30 p.m.</p>
+			<p><i class="fas fa-map-marker-alt"></i> Rendezvous</p>
+		  </div>
+		</div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix rendezvous">
+		<div class="card">
+		  <div class="card-body">
+			<h4 class="card-title">Sono</h4>
+			<p><i class="fas fa-utensils"></i>  Burritos, tacos, rice bowls</p>
+			<p><i class="far fa-clock"></i> Monday - Thursday<br /> 10:30 a.m. - 2 p.m.</p>
+			<p><i class="far fa-clock"></i> Friday<br /> 10:30 a.m. - 1:30 p.m.</p>
+			<p><i class="fas fa-map-marker-alt"></i> Rendezvous</p>
+		  </div>
+		</div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix turner">
+		<div class="card">
+		  <div class="card-body">
+			<h4 class="card-title">Turner Commons</h4>
+			<p><i class="fas fa-utensils"></i> Variety of eclectic cuisines, all-you-care-to-eat</p>
+			<p><i class="far fa-clock"></i> Monday - Friday<br />
+				Breakfast 7 a.m. - 9 a.m.<br />
+				Lunch 11 a.m. - 1:30 p.m.<br />
+				Dinner 5 p.m. - 7:30 p.m.</p>
+			<p><i class="far fa-clock"></i> Saturday - Sunday<br />
+				Brunch 10:30 a.m. - 2 p.m.<br />
+				Dinner 5 p.m. - 7:30 p.m.</p>
+			<p><i class="fas fa-map-marker-alt"></i> Turner Hall</p>
+		  </div>
+		</div>
+  </div>
+  
+
+
+  
+  
+  
+</div><!-- .row -->
+</div>	
+	
+
+		</div><!-- .container -->
+	</section><!-- .content -->
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<title>Buttons</title>
+<!--#include virtual="includes/code-head.html"-->
+	
+		
+</head>
+<body>
+<a id="SkipNav" href="#MainContent">Skip to Main Content</a>
+<!--#include virtual="includes/code-header-standard.html"-->
+
+		
+	<main id="content">
+		<div class="container">
+<div class="row">
+	<div class="col-md-12">
+
+<h1>Buttons</h1>
+<h1><span class="badge badge-secondary">Options for End-users</span></h1>	
+<p class="button-solid"><a href="#">button</a></p>
+<p class="button-outline"><a href="#">button</a></p>
+
+<p>&nbsp;</p>
+<h1><span class="badge badge-secondary">Custom hand coded</span></h1>	
+<p>We have not discovered a viable way to incorporate these options into the CMS.</p>
+
+<h4>Color Classes</h4>
+<a href="#" class="btn btn-primary" role="button">Primary</a>
+<a href="#" class="btn btn-secondary" role="button">Secondary</a>
+<a href="#" class="btn btn-success" role="button">Success</a>
+<a href="#" class="btn btn-info" role="button">Info</a>
+<a href="#" class="btn btn-warning" role="button">Warning</a>
+<a href="#" class="btn btn-danger" role="button">Danger</a>
+<a href="#" class="btn btn-dark" role="button">Dark</a>
+<a href="#" class="btn btn-light" role="button">Light</a>
+
+<p>&nbsp;</p>
+<h4>Outlines</h4>
+<a href="#" class="btn btn-outline-primary" role="button">Primary</a>
+<a href="#" class="btn btn-outline-secondary" role="button">Secondary</a>
+<a href="#" class="btn btn-outline-success" role="button">Success</a>
+<a href="#" class="btn btn-outline-info" role="button">Info</a>
+<a href="#" class="btn btn-outline-warning" role="button">Warning</a>
+<a href="#" class="btn btn-outline-danger" role="button">Danger</a>
+<a href="#" class="btn btn-outline-dark" role="button">Dark</a>
+<a href="#" class="btn btn-outline-light" role="button">Light</a>
+
+<p>&nbsp;</p>
+<h4>Sizes</h4>
+<a href="#" class="btn btn-primary btn-xlg" role="button">X-Large</a>
+<a href="#" class="btn btn-primary btn-lg" role="button">Large</a>
+<a href="#" class="btn btn-primary" role="button">Default</a>
+<a href="#" class="btn btn-primary btn-sm" role="button">Small</a>
+
+<p>&nbsp;</p>
+<h4>Block</h4>
+<a href="#" class="btn btn-primary btn-block" role="button">Primary</a>
+<a href="#" class="btn btn-primary btn-block btn-lg" role="button">Primary</a>
+
+<p>&nbsp;</p>
+<h4>Icons</h4>
+<a href="#" class="btn btn-primary" role="button">Primary <i class="far fa-arrow-alt-circle-right"></i></a>
+<a href="#" class="btn btn-secondary" role="button"> <i class="fas fa-download"></i> Secondary</a>
+
+<p>&nbsp;</p>
+<h4>Button Groups</h4>
+ <div class="btn-group">
+<a href="#" class="btn btn-primary" role="button">Primary</a>
+<a href="#" class="btn btn-primary" role="button">Primary</a>
+<a href="#" class="btn btn-primary" role="button">Primary</a>
+</div> 
+
+	</div><!-- .col-12 -->
+</div><!-- .row -->
+		</div><!-- .container -->
+	</main><!-- .content -->
+	
+<!--#include virtual="includes/code-footer.html"-->
+	
+
+</body>
+</html>
