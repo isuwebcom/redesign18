@@ -1,0 +1,40 @@
+/*============================================================================================================================
+TYPOGRAPHY
+============================================================================================================================*/
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+	color: #333;
+	letter-spacing: 0.01rem;
+}
+
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong,
+.h1 strong, .h2 strong, .h3 strong, .h4 strong, .h5 strong, .h6 strong {
+	font-weight: 600 !important;
+}
+
+h1, .h1 {
+  font-size: 2.6rem;
+}
+
+h2, .h2 {
+  font-size: 2.3rem;
+}
+
+h3, .h3 {
+  font-size: 1.9rem;
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+}
