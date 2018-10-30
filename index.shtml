@@ -7,11 +7,23 @@
 	<title>2018 Site Overhaul</title>
 <!--#include virtual="includes/code-head.html"-->
 	
-		
+<style>
+.not-active {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;
+}
+</style>		
 </head>
 <body>
 <a id="SkipNav" href="#MainContent">Skip to Main Content
 <!--#include virtual="includes/code-header-standard.html"-->
+
+<!--
+<p><a target="_blank" href="#">Link</a></p>	
+<p><a target="_blank" class="not-active" href="#">Link</a></p>
+-->
 		
 	<main id="content">
 		<div class="container">
@@ -22,6 +34,10 @@
 			</div><!-- .row -->
 			<div class="row">	
 				<div class="col-md-6">
+					<h3 class="headerbar">Sketches</h3>
+					<p>Homepage</p>
+					<p>Headers</p>
+
 					<h3 class="headerbar">Elements</h3>
 					<p><a target="_blank" href="header-standard.shtml">Standard Header</a></p>
 					<p><a target="_blank" href="header-top-level.shtml">Top-level Header</a></p>
@@ -32,71 +48,77 @@
 					<p>Side Navigation</p>
 										
 					<h3 class="headerbar">Styles &amp; Components</h3>
-					<p><strong>Bootstrap components</strong></p>
-					<p><a target="_blank" href="alerts.shtml">Alerts</a></p>
+					<p><a target="_blank" href="typography.shtml">Typography</a></p>
+					<p><a target="_blank" href="colors.shtml">Color Schemes</a></p>
 					<p><a target="_blank" href="buttons.shtml">Buttons</a></p>
+					<p><a target="_blank" href="backgrounds.shtml">Backgrounds</a></p>
+					<p><a target="_blank" href="tables.shtml">Tables</a></p>
+					<p><a target="_blank" href="list-groups.shtml">List groups</a></p>
+					<p><a target="_blank" href="tldr.shtml">Bootstrap TLDR</a></p>
+
+					
+					
+					<h3 class="headerbar">Content Types</h3>
 					<p><a target="_blank" href="cards.shtml">Cards</a></p>
 					<p><a target="_blank" href="carousel.shtml">Carousel</a></p>
 					<p><a target="_blank" href="jumbotron.shtml">Jumbotron</a></p>
-					<p><a target="_blank" href="list-groups.shtml">List groups</a></p>
-					<p><a target="_blank" href="tables.shtml">Tables</a></p>
-					
-					<p><strong>Other components</strong></p>
-					<p><a target="_blank" href="typography.shtml">Typography</a></p>
-					<p><a target="_blank" href="colors.shtml">Color Schemes</a></p>
-					<p><a target="_blank" href="backgrounds.shtml">Backgrounds</a></p>
-					<p><a target="_blank" href="tldr.shtml">TLDR</a></p>
-					
-					
-					<h3 class="headerbar">Templates</h3>
+
+					<h3 class="headerbar">Page Layouts</h3>
 					<p><a target="_blank" href="template-top-level.shtml">Top-level</a></p>
 					<p><a target="_blank" href="template-no-nav.shtml">No Navigation</a></p>
 					<p>Side Navigation</p>
 					<p><a target="_blank" href="template-top-nav.shtml">Top Navigation</a></p>
 					<p>Top Navigation with Sidebar</p>
-
+					
 				</div><!-- .col-6 -->
 
+
+				<!--
+					<p><a target="_blank" href="alerts.shtml">Alerts</a></p>
+
+-->
 				<div class="col-md-6">
 					
 					
 					<h3 class="headerbar">Redesigned/New Top-level Pages</h3>
 					
-					<p><a target="_blank" href="home.shtml">Home</a> <i class="fas fa-code"></i></p>
-					<p><a target="_blank" href="current-students.shtml">Students</a></p>
-					<p><a target="_blank" href="parents.shtml">Parents</a></p>
-					<p><a target="_blank" href="faculty-and-staff.shtml">Faculty and Staff</a></p>
-					<p><a target="_blank" href="alumni.shtml">Alumni</a></p>
-					<p><a target="_blank" href="visitors.shtml">Visitors</a></p>
+					<p><a target="_blank" href="wireframes/home.shtml">Home</a></p>
+					<p><a target="_blank" href="wireframes/students.shtml">Students</a></p>
+					<p><a target="_blank" class="not-active" href="parents.shtml">Parents</a></p>
+					<p><a target="_blank" href="wireframes/facstaff.shtml">Faculty and Staff</a></p>
+					<p><a target="_blank" href="wireframes/alumni.shtml">Alumni</a></p>
+					<p><a target="_blank" class="not-active" href="visitors.shtml">Visitors</a></p>
 					<hr />
-					<p><a target="_blank" href="about.shtml">About</a></p>
-					<p><a target="_blank" href="academics.shtml">Academics</a></p>
-					<p><a target="_blank" href="administration.shtml">Administration</a> <i class="fas fa-code"></i></p>
-					<p><a target="_blank" href="admissions.shtml">Admissions</a></p>
-					<p><a target="_blank" href="advancement.shtml">Advancement</a></p>
-					<p><a target="_blank" href="apply.shtml">Apply</a> <i class="fas fa-code"></i>
-					<br /><a target="_blank" href="undergraduate.shtml">Undergraduate</a> <i class="fas fa-code"></i>
+					<p><a target="_blank" class="not-active" href="about.shtml">About</a></p>
+					<p><a target="_blank" class="not-active" href="academics.shtml">Academics</a></p>
+					<p><a target="_blank" href="wireframes/administration.shtml">Administration</a></p>
+					<p><a target="_blank" class="not-active" href="admissions.shtml">Admissions</a></p>
+					<p><a target="_blank" class="not-active" href="advancement.shtml">Advancement</a></p>
+					<p><a target="_blank" href="apply.shtml">Apply</a>
+					<br />
+					<a target="_blank" href="undergraduate.shtml">Undergraduate</a>
 					</p>
-					<p><a target="_blank" href="calendar.shtml">Calendar</a> <i class="fas fa-code"></i>
-					<br /><a target="_blank" href="calendar-submit.shtml">Calendar Submission</a> <i class="fas fa-code"></i>
+					<p><a target="_blank" href="calendar.shtml">Calendar</a>
+					<br />
+					<a target="_blank" href="calendar-submit.shtml">Calendar Submission</a>
 					</p>
-					<p><a target="_blank" href="commencement.shtml">Commencement</a></p>
-					<p><a target="_blank" href="contact.shtml">Contact</a> <i class="fas fa-code"></i></p>
-					<p><a target="_blank" href="cost.shtml">Cost</a></p>
-					<p><a target="_blank" href="dining.shtml">Dining</a> <i class="fas fa-code"></i></p>				
-					<p><a target="_blank" href="health.shtml">Health at ISU</a></p>
-					<p><a target="_blank" href="life.shtml">Life at ISU</a></p>
-					<p><a target="_blank" href="maps.shtml">Maps</a></p>
-					<p><a target="_blank" href="news-bs3.html">News (BS3)</a></p>
-					<p><a target="_blank" href="pocatello.shtml">Pocatello</a></p>
-					<p><a target="_blank" href="programs.shtml">Programs</a></p>
-					<p><a target="_blank" href="tecnology.shtml">Technology</a></p>
+					<p><a target="_blank" class="not-active" href="commencement.shtml">Commencement</a></p>
+					<p><a target="_blank" href="wireframes/contact.shtml">Contact</a></p>
+					<p><a target="_blank" class="not-active" href="cost.shtml">Cost</a></p>
+					<p><a target="_blank" href="wireframes/dining.shtml">Dining</a></p>				
+					<p><a target="_blank" class="not-active" href="health.shtml">Health at ISU</a></p>
+					<p><a target="_blank" class="not-active" href="life.shtml">Life at ISU</a></p>
+					<p><a target="_blank" class="not-active" href="maps.shtml">Maps</a></p>
+					<p><a target="_blank" class="not-active" href="news-bs3.html">News (BS3)</a></p>
+					<p><a target="_blank" class="not-active" href="pocatello.shtml">Pocatello</a></p>
+					<p><a target="_blank" class="not-active" href="programs.shtml">Programs</a></p>
+					<p><a target="_blank" href="wireframes/technology.shtml">Technology</a></p>
 					
 					<!--
 					<h3 class="headerbar">Recoded content types</h3>
 					<p><a target="_blank" href="staff-entry.shtml">Staff directory entries</a></p>
-					-->
-<i class="fas fa-check"></i>
+					<i class="fas fa-check"></i>
+				-->
 				</div><!-- .col-6 -->
 			</div><!-- .row -->
 			

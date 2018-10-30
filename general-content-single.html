@@ -1,0 +1,47 @@
+-add heading size to elements
+
+
+importClass(com.terminalfour.publish.utils.BrokerUtils); // Needed for certain versions of SM to enable BrokerUtils
+try{
+var metaTag = '<t4 type="meta" meta="html_anchor" />';  
+var meta = BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, metaTag);
+
+var colSizeTag = '<t4 type="content" name="Size of Column" output="normal" display_field="value" />';
+var colSize = BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, colSizeTag);
+  
+var headingSizeTag = '<t4 type="content" name="Heading size" output="normal" display_field="value" />';
+var headingSize = BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, headingSizeTag);
+  
+var headingTextTag = '<t4 type="content" name="Title" output="normal" modifiers="striptags,htmlentities" />';
+var headingText = BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, headingTextTag);
+
+var imageTag = '<t4 type="content" name="Feature image" output="normal" formatter="image/responsive" />';
+var image = BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, imageTag);
+
+var contentTag = '<t4 type="content" name="Main body" output="normal" modifiers="medialibrary,nav_sections" />';
+var newContent = BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, contentTag);
+
+//If heading size was blank, default to h2
+if(headingSize.length() < 2){
+    headingSize = "h2";
+}
+
+var html = [
+  	meta,
+    '<' + headingSize + '>',
+        headingText,
+    '</' + headingSize + '>',
+    image,
+    newContent
+];
+
+for(var i = 0; i < html.length; i++){
+    document.write(html[i]);
+}
+
+
+}catch(err){
+  	//Java Runtime errors are caught here. 
+    document.write("ERROR: " + (err) + "<br />");
+  
+}

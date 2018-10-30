@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<title>Home wireframe</title>
+<!--#include virtual="includes/code-head.html"-->
+	
+		
+</head>
+<body>
+<a id="SkipNav" href="#MainContent">Skip to Main Content</a>
+<!--#include virtual="includes/code-header-standard.html"-->
+
+		
+<main id="content">		
+		<div class="container-fluid">
+            <img class="img-fluid" src="https://via.placeholder.com/1900x800?text=Homie+or+Video" alt="">
+	</div><!-- .container-fluid -->
+	
+		<div class="priority-links wireframe">
+			<div class="container-fluid">
+			<div class="container">
+				<div class="row v-stack text-center">	
+					<div class="col-sm-6 col-md-2">
+						<a href="#">
+						<i class="fas fa-check"></i>
+						<p>Apply</p>
+						</a>
+					</div><!-- .col-2 -->
+					
+					<div class="col-sm-6 col-md-2">
+						<a href="#">
+						<i class="fas fa-bookmark"></i>
+						<p>Majors</p>
+						</a>
+					</div><!-- .col-2 -->
+					
+					<div class="col-sm-6 col-md-2">
+						<a href="#">
+						<i class="fas fa-dollar-sign"></i>
+						<p>Cost</p>
+						</a>
+					</div><!-- .col-2 -->
+					
+					<div class="col-sm-6 col-md-2">
+						<a href="#">
+						<i class="fas fa-book-open"></i>
+						<p>Academics</p>
+						</a>
+					</div><!-- .col-2 -->
+					
+					<div class="col-sm-6 col-md-2">
+						<a href="#">
+						<i class="fas fa-school"></i>
+						<p>Visit</p>
+						</a>
+					</div><!-- .col-2 -->
+					
+					<div class="col-sm-6 col-md-2">
+						<a href="#">
+						<i class="fas fa-calendar-alt"></i>
+						<p>Calendar</p>
+						</a>
+					</div><!-- .col-2 -->				
+				</div><!-- .row -->
+			</div><!-- .container -->			
+			</div><!-- .container-fluid -->
+		</div><!-- .priority-links -->
+	
+	<div class="container">
+	
+	<div class="row">
+        <div class="col-md-12 mt-4 wireframe">
+                <p><mark>Feature area</mark> Could be brag point, seasonal things of importance, new initiatives, homie replacement if homie space is a video</p>
+            <div class="row wireframe">	
+                    <div class="col-md-6">
+                        <h3>Something you should know</h3>
+                    </div><!-- .col-6 -->
+                
+                    <div class="col-md-6">
+                            <img class="img-fluid" src="https://via.placeholder.com/800x533?text=Homielike+image" alt="">
+                    </div><!-- .col-6 -->
+                </div><!-- .row -->	
+                
+                <div class="row">
+                        <div class="col-md-12 mt-4 wireframe">
+                                <img class="img-fluid" src="https://via.placeholder.com/1170x514?text=or+just+an+image" alt="">
+                        </div><!-- .col-12 -->
+                    </div><!-- .row -->
+                    
+	    </div><!-- .col-12 -->
+	</div><!-- .row -->
+	
+	
+	<div class="row mt-4">	
+        <div class="col-md-8 wireframe">
+            <h3>News</h3>
+            <p>Feed from news page</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p><a href="#">More News</a></p>
+        </div><!-- .col-8 -->
+        
+        <div class="col-md-4 wireframe">
+            <h3>Events</h3>
+            <p>Feed from Trumba</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p><a href="#">All Events</a></p>
+        </div><!-- .col-4 -->
+	</div><!-- .row -->
+	</div><!-- .container -->
+	
+		<div class="container">
+			<div class="row text-center mt-4">	
+				<div class="col-md-3 wireframe">
+					<a href="#">Location</a>
+				</div><!-- .col-3 -->
+				
+				<div class="col-md-3 wireframe">
+                        <a href="#">Virtual Tour</a>
+				</div><!-- .col-3 -->
+				
+				<div class="col-md-3 wireframe">
+                        <a href="#">Join the Alumni Association</a>
+				</div><!-- .col-3 -->
+				
+				<div class="col-md-3 wireframe">
+                        <a href="#">Make a gift</a>
+				</div><!-- .col-3 -->
+			</div><!-- .row -->
+	
+		</div><!-- .container -->
+	
+	<div class="container-fluid">
+	
+		<div class="row d-flex mt-4">
+						<ul class="home-social-icons mx-auto justify-content-center">
+							<li><span style="font-size:2rem;">Follow Us</span></li>
+							<li><a href="https://www.facebook.com/idahostateu" class="icoFacebook" title="Facebook" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a></li>
+							<li><a href="https://twitter.com/idahostateu" class="icoTwitter" title="Twitter" aria-label="Twitter"><i class="fab fa-twitter-square"></i></a></li>
+							<li><a href="https://instagram.com/idahostateu/" class="icoInstagram" title="Instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="https://www.youtube.com/user/idahostateu" class="icoYoutube" title="Youtube" aria-label="Youtube"><i class="fab fa-youtube-square"></i></a></li>
+							<li><a href="https://www.snapchat.com/add/idahostateu" class="icoSnapchat" title="Snapchat" aria-label="Snapchat"><i class="fab fa-snapchat-square"></i></a></li>
+						</ul>
+		</div><!-- .row -->
+	
+	<div class="row text-center">	
+	<div class="col-md-4 wireframe">
+        <h3>Facebook Feed</h3>
+        <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+	</div><!-- .col-4 -->
+	
+	<div class="col-md-4 wireframe">
+		<h3>Instagram Feed</h3>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+	</div><!-- .col-4 -->
+	
+	<div class="col-md-4 wireframe">
+		<h3>Twitter Feed</h3>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+	</div><!-- .col-4 -->
+	
+	</div><!-- .row -->
+	
+	</div><!-- .container-fluid -->
+	
+	<div class="container">
+	
+		</div><!-- .row -->	
+	</div><!-- .container -->
+	
+	
+		</main><!-- .content -->	
+	
+<!--#include virtual="includes/code-footer.html"-->
+	
+
+</body>
+</html>
